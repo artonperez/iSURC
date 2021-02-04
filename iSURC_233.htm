@@ -1,0 +1,962 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZSR0V6LTVP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZSR0V6LTVP');
+</script>
+<title>INFORMATIVO COMERCIAL SURC</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-indigo.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- Side Navigation -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center" style="display:none" id="mySidebar">
+  <h1 class="w3-xxxlarge w3-text-theme">Menu</h1>
+  <button class="w3-bar-item w3-button" onclick="w3_close()">Fechar <i class="fa fa-remove"></i></button>
+<!--  <a href="#" class="w3-bar-item w3-button">Inscrever</a>
+  <a href="#" class="w3-bar-item w3-button">Cancelar Inscrição</a>
+  <a href="#" class="w3-bar-item w3-button">Histórico</a>
+-->
+  <a href="#" class="w3-bar-item w3-button">Sobre</a>
+</nav>
+
+<!-- Header -->
+<header class="w3-container w3-theme w3-padding" style="background-image: url('https://image.freepik.com/free-vector/beautiful-wavy-background_23-2148465605.jpg');background-size: cover"  id="myHeader">
+  <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
+  <div class="w3-center">
+ <img src="https://servicos.dataprev.gov.br/wp-content/uploads/2020/07/marcaDTPbranco-1.png" style="width:10%">
+ <h1 class="w3-xxxlarge w3-animate-bottom">INFORMATIVO COMERCIAL SURC</h1>
+<!-- <a href="https://www.spsp.org.br/2019/07/31/juntos-pela-amamentacao-agosto-dourado/">
+    <img src="http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2018/02/agosto-dourado.png" style="width:5%">
+</a> -->
+  <h4>Número 233</h4>
+  <h5>quinta-feira, 4 de fevereiro de 2021</h5>
+  </div>
+ 
+</header>
+
+<!-- Modal Avisos-->
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-top">
+      <header class="w3-container w3-theme-l1"> 
+        <span onclick="document.getElementById('id01').style.display='none'"
+        class="w3-button w3-display-topright">×</span>
+        <h4>Avisos Importantes</h4>
+      </header>
+      <div class="w3-padding">
+           
+      </div>
+    </div>
+</div>
+
+<div class="w3-row-padding w3-center w3-margin-top">
+  <div class="w3-row w3-third w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col w3-display-container " style="min-height:500px">
+      <header>
+         <h3>Gov. Federal</h3>
+      </header>
+      <div>
+         <img src="https://odia.ig.com.br/_midias/jpg/2019/06/03/1200x670/1_gerente_homem_verificando_financas_de_trabalho_1262_2289-11399535.jpg" alt="Imagem Destaque" style="width:100%;height:200px">
+         <a href="https://odia.ig.com.br/economia/2021/02/6077814-febraban-nove-correspondentes-bancarios-estao-proibidos-de-oferecer-credito-consignado-veja-quais.html" style="text-decoration:none" class="w3-hover-gray" target="_blank">Febraban: nove correspondentes bancários estão proibidos de oferecer crédito consignado; veja quais | Economia | O Dia <br> </a>
+         <a href="https://odia.ig.com.br/economia/2021/02/6077814-febraban-nove-correspondentes-bancarios-estao-proibidos-de-oferecer-credito-consignado-veja-quais.html" style="text-decoration:none" class="w3-hover-gray w3-small" target="_blank">Outros 238 correspondentes também foram penalizados por conta de reclamações dos consumidores. As medidas são fruto da Autorregulação do Crédito Consignado da Febraban e da Associação Brasileira de Bancos (ABBC)</a>
+         <p class="w3-small w3-text-theme">https://odia.ig.com.br</p>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <a href="#GovFederal" class="w3-button w3-block w3-center-align w3-display-bottommiddle" onclick="openCity(event,'GovFederal')">Mais notícias</a>
+      </footer>
+   </div>
+</div><div class="w3-row w3-third w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col w3-display-container " style="min-height:500px">
+      <header>
+         <h3>Judiciário</h3>
+      </header>
+      <div>
+         <img src="https://img.estadao.com.br/resources/jpg/7/2/1612368030627.jpg" alt="Imagem Destaque" style="width:100%;height:200px">
+         <a href="https://brasil.estadao.com.br/noticias/geral,ministerio-da-saude-sofre-invasao-e-hacker-debocha-este-site-esta-um-lixo,70003603976" style="text-decoration:none" class="w3-hover-gray" target="_blank">Ministério da Saúde sofre invasão e hacker debocha: ‘Este site está um lixo!’ - Brasil - Estadão <br> </a>
+         <a href="https://brasil.estadao.com.br/noticias/geral,ministerio-da-saude-sofre-invasao-e-hacker-debocha-este-site-esta-um-lixo,70003603976" style="text-decoration:none" class="w3-hover-gray w3-small" target="_blank">Rede do sistema que reúne informações de pacientes é novamente alvo de ataque virtual</a>
+         <p class="w3-small w3-text-theme">https://politica.estadao.com.br</p>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <a href="#Judiciario" class="w3-button w3-block w3-center-align w3-display-bottommiddle" onclick="openCity(event,'Judiciario')">Mais notícias</a>
+      </footer>
+   </div>
+</div><div class="w3-row w3-third w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col w3-display-container " style="min-height:500px">
+      <header>
+         <h3>Judiciário</h3>
+      </header>
+      <div>
+         <img src="https://s2.glbimg.com/hJMW8mhHNA-DYBkdjefzJU2ddfI=/0x0:918x511/984x0/smart/filters:strip_icc()/s.glbimg.com/jo/g1/f/original/2016/04/28/inddddice.jpg" alt="Imagem Destaque" style="width:100%;height:200px">
+         <a href="https://g1.globo.com/es/espirito-santo/noticia/2021/02/03/dados-pessoais-de-vacinados-contra-a-covid-19-sao-expostos-em-site-da-prefeitura-de-guarapari-es.ghtml" style="text-decoration:none" class="w3-hover-gray" target="_blank">Dados pessoais de vacinados contra a Covid-19 são expostos em site da Prefeitura de Guarapari, ES <br> </a>
+         <a href="https://g1.globo.com/es/espirito-santo/noticia/2021/02/03/dados-pessoais-de-vacinados-contra-a-covid-19-sao-expostos-em-site-da-prefeitura-de-guarapari-es.ghtml" style="text-decoration:none" class="w3-hover-gray w3-small" target="_blank">Nome completo, CPF, filiação, local de trabalho dos profissionais de saúde e a moradia de idosos em Instituições de Longa Permanência (ILPIs) ficaram disponíveis durante dias. Fachada da Prefeitura de Guarapari, Espírito Santo Divulgação/Prefeitura de Guarapari Até esta quarta-feira (3)</a>
+         <p class="w3-small w3-text-theme">https://g1.globo.com/</p>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <a href="#Judiciario" class="w3-button w3-block w3-center-align w3-display-bottommiddle" onclick="openCity(event,'Judiciario')">Mais notícias</a>
+      </footer>
+   </div>
+</div>
+</div>
+
+<hr>
+<h2 class="w3-center">Notícias</h2>
+<div class="w3-border">
+<div class="w3-bar w3-theme">
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Social')"><i class="fa fa-group"></i> Social</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'GovFederal')"><i class="fa fa-university"></i> Gov. Federal</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'GovEsferas')"><i class="fa fa-compass"></i> Gov. Esferas</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Judiciario')"><i class="fa fa-gavel"></i> Judiciário</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Privado')"><i class="fa fa-line-chart"></i> Privado</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Concorrencia')"><i class="fa fa-exclamation-triangle"></i> Concorrência</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Produtos')"><i class="fa fa-diamond"></i> Produtos</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Twitter')"><i class="fa fa-twitter"></i> Twitter</button>
+</div>
+
+<div id="Social" class="w3-container city w3-animate-opacity w3-row-padding " style="margin:0 -16px">
+  <h2>Social</h2>
+     <div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://tecnoblog.net/408335/dataprev-demite-diretor-de-seguranca-em-meio-a-rumores-sobre-vazamento/"class="w3-hover-gray" target="_blank" style="text-decoration:none">Dataprev demite diretor de segurança em meio a rumores sobre vazamento</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">Tecnoblog.net</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://www.mixvale.com.br/2021/02/03/mais-de-11-milhao-de-processos-no-inss-em-fase-de-recurso/"class="w3-hover-gray" target="_blank" style="text-decoration:none">Mais de 1,1 milhão de processos no INSS em fase de recurso</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">Mixvale.com.br</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://canaltech.com.br/smartphone/apple-explica-regras-para-rastreio-de-uso-e-plataformas-de-jogos-na-app-store-178433/"class="w3-hover-gray" target="_blank" style="text-decoration:none">Apple explica regras para rastreio de uso e plataformas de jogos na App Store</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">Canaltech.com.br</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://startupi.com.br/2021/02/startup-de-solucoes-voltadas-ao-comportamento-do-consumidor-recebe-aporte-de-r6-milhoes/"class="w3-hover-gray" target="_blank" style="text-decoration:none">Startup de soluções voltadas ao comportamento do consumidor recebe aporte de R$6 milhões</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">https://startupi.com.br/</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="http://blogdorobsonfreitas.blogspot.com/2021/02/faber-castell-lanca-cursos-online-de.html"class="w3-hover-gray" target="_blank" style="text-decoration:none">Faber-Castell lança cursos online de Design Thinking, UX e Criatividade; saiba como participar</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">http://blogdorobsonfreitas.blogspot.com</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://www.mixvale.com.br/2021/02/03/liberado-pela-justica-r-847-milhoes-em-atrasados-do-inss/"class="w3-hover-gray" target="_blank" style="text-decoration:none">Liberado pela Justiça R$ 847 milhões em atrasados do INSS</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">https://www.mixvale.com.br/</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mercado/2021/02/debate-de-elon-musk-com-presidente-do-robinhood-impulsiona-popularidade-do-aplicativo-clubhouse.shtml"class="w3-hover-gray" target="_blank" style="text-decoration:none">Nova rede social dispara após participação de Elon Musk</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">https://redir.folha.com.br</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://gq.globo.com/Lifestyle/Tecnologia/noticia/2021/02/no-fim-do-ano-gigantes-tech-seguiram-em-alta.html"class="w3-hover-gray" target="_blank" style="text-decoration:none">No fim do ano, gigantes tech seguiram em alta</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">https://gq.globo.com</p>
+      </footer>
+   </div>
+</div>
+
+</div>
+
+<div id="GovFederal" class="w3-container city w3-animate-opacity w3-row-padding " style="margin:0 -16px">
+  <h2>Gov. Federal</h2>
+  <div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="http://setor3.com.br/aplicativo-conecta-bibliotecas-comunitarios-entre-si-e-leitores/"class="w3-hover-gray" target="_blank" style="text-decoration:none">Aplicativo conecta bibliotecas comunitários entre si e leitores</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">http://setor3.com.br/</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://brasil61.com/noticias/mg-cidadaos-vao-poder-emitir-2-via-das-certidoes-de-nascimento-casamento-e-obito-por-aplicativo-bras213689"class="w3-hover-gray" target="_blank" style="text-decoration:none">MG: cidadãos vão poder emitir 2ª via das certidões de nascimento, casamento e óbito por aplicativo</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">https://brasil61.com/</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://www.decisionreport.com.br/governo/dataprev-implanta-15-solucoes-tecnologicas-para-beneficiar-os-cidadaos-durante-a-pandemia/"class="w3-hover-gray" target="_blank" style="text-decoration:none">Dataprev implanta soluções para beneficiar os cidadãos durante a pandemia - Decision Report</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">https://www.decisionreport.com.br/</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://www.baguete.com.br/noticias/03/02/2021/dados-da-dataprev-vazaram"class="w3-hover-gray" target="_blank" style="text-decoration:none">Dados da Dataprev vazaram?</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">https://www.baguete.com.br</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://www.securityreport.com.br/destaques/dataprev-em-nota-oficial-desmente-vazamento-de-dados/"class="w3-hover-gray" target="_blank" style="text-decoration:none">Dataprev, em nota oficial, desmente vazamento de dados</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">https://www.securityreport.com.br/</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://cointelegraph.com.br/news/brazilian-institute-promotes-free-event-on-blockchain-in-agribusiness"class="w3-hover-gray" target="_blank" style="text-decoration:none">Instituto brasileiro promove evento de graça sobre ‘blockchain no agronegócio’</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">https://cointelegraph.com.br/</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://opetroleo.com.br/as-perigosas-mudancas-no-cadastro-unico-podem-levar-o-brasil-rumo-ao-mapa-da-fome/"class="w3-hover-gray" target="_blank" style="text-decoration:none">As perigosas mudanças no Cadastro Único podem levar o Brasil rumo ao Mapa da Fome</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">https://opetroleo.com.br/</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://www.segs.com.br/eventos/273964-ministerio-do-turismo-e-banco-do-brasil-apresentam-bb-dtvm-apresenta-e-patrocina"class="w3-hover-gray" target="_blank" style="text-decoration:none">Ministério do Turismo e Banco do Brasil apresentam BB DTVM apresenta e patrocina</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">https://www.segs.com.br</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://grandeconsumo.com/empresa-portuguesa-cria-plataforma-que-permite-impulsionar-negocios-a-distancia/"class="w3-hover-gray" target="_blank" style="text-decoration:none">Empresa portuguesa cria plataforma que permite impulsionar negócios à distância</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">https://grandeconsumo.com/</p>
+      </footer>
+   </div>
+</div>
+ 
+</div>
+
+<div id="GovEsferas" class="w3-container city w3-animate-opacity w3-row-padding " style="margin:0 -16px">
+  <h2>Gov. Esferas</h2>
+  <p class="w3-small">Ops. Nada aqui.</p>
+</div>
+
+<div id="Judiciario" class="w3-container city w3-animate-opacity w3-row-padding " style="margin:0 -16px">
+  <h2>Judiciário</h2>
+  <div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://canaltech.com.br/resultados-financeiros/google-registra-aumento-em-suas-receitas-no-ultimo-trimestre-de-2020-178439/"class="w3-hover-gray" target="_blank" style="text-decoration:none">Google registra aumento em suas receitas no último trimestre de 2020</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">https://canaltech.com.br/</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://cidadeverde.com/noticias/340920/strans-quer-usar-tecnologia-da-prf-para-coibir-reincidentes-no-bafometro"class="w3-hover-gray" target="_blank" style="text-decoration:none">Strans quer usar tecnologia da PRF para coibir reincidentes no bafômetro</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">https://cidadeverde.com</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://prodegesp.ufsc.br/searf/assentamento-funcional-digital/"class="w3-hover-gray" target="_blank" style="text-decoration:none">Assentamento Funcional Digital</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">https://prodegesp.ufsc.br</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="http:///inovacao-tecnologica-e-a-principal-marca-do-tre-es"class="w3-hover-gray" target="_blank" style="text-decoration:none">Inovação tecnológica é a principal marca do TRE-ES</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">http://</p>
+      </footer>
+   </div>
+</div>
+
+</div>
+
+<div id="Privado" class="w3-container city w3-animate-opacity w3-row-padding " style="margin:0 -16px">
+  <h2>Privado</h2>
+  <div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://www.terra.com.br/esportes/lance/nacao-brb-fla-parceria-entre-flamengo-e-banco-digital-atinge-marca-de-120-mil-contas-abertas,5d364d518d5b1434881ac5757f7ad9e37vpu1ldt.html"class="w3-hover-gray" target="_blank" style="text-decoration:none">Nação BRB FLA: parceria entre Flamengo e banco digital atinge marca de 120 mil contas abertas</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">Terra.com.br</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://www.convergenciadigital.com.br/cgi/cgilua.exe/sys/start.htm?UserActiveTemplate=site&infoid=56026&sid=18"class="w3-hover-gray" target="_blank" style="text-decoration:none">Polícia Federal prende um dos maiores hackers do Brasil</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">https://www.convergenciadigital.com.br</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://www.segs.com.br/info-ti/274035-transformacao-digital-fundamentos-digitais-lanca-curso-para-profissional-de-e-commerce"class="w3-hover-gray" target="_blank" style="text-decoration:none">Transformação digital: Fundamentos Digitais lança curso para profissional de e-commerce</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">https://www.segs.com.br</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://seucreditodigital.com.br/nubank-e-eleito-uma-das-10-marcas-mais-amadas-pelos-brasileiros-em-2020/"class="w3-hover-gray" target="_blank" style="text-decoration:none">Nubank é eleito uma das 10 marcas mais amadas pelos brasileiros em 2020</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">https://seucreditodigital.com.br/</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://www.suinoculturaindustrial.com.br/imprensa/transformacao-digital-na-suinocultura-uma-visao-de-negocios/20210203-102012-b326"class="w3-hover-gray" target="_blank" style="text-decoration:none">Transformação digital na Suinocultura - Uma visão de negócios</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">https://www.suinoculturaindustrial.com.br/</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://medicinasa.com.br/riscos-invisiveis/"class="w3-hover-gray" target="_blank" style="text-decoration:none">Os riscos invisíveis do tráfego de dados pessoais e prontuários médicos - Medicina S/A</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">https://medicinasa.com.br/</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://cointelegraph.com.br/news/crypto-hedge-fund-refutes-jpmorgan-s-claim-that-bitcoin-etf-is-short-term-negative-for-btc"class="w3-hover-gray" target="_blank" style="text-decoration:none">Fundo de hedge cripto refuta a afirmação do JPMorgan de que um ETF de Bitcoin é negativo no curto prazo para o BTC</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">https://cointelegraph.com.br/</p>
+      </footer>
+   </div>
+</div>
+<div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://computerworld.com.br/negocios/jeff-bezos-deixara-cargo-de-ceo-da-amazon-ceo-da-aws-assume-posicao/"class="w3-hover-gray" target="_blank" style="text-decoration:none">Jeff Bezos deixará cargo de CEO da Amazon; CEO da AWS assume posição</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">https://computerworld.com.br/</p>
+      </footer>
+   </div>
+</div>
+ 
+</div>
+
+<div id="Concorrencia" class="w3-container city w3-animate-opacity w3-row-padding " style="margin:0 -16px">
+  <h2>Concorrência</h2>
+  <p class="w3-small">Ops. Nada aqui.</p>
+</div>
+
+<div id="Produtos" class="w3-container city w3-animate-opacity w3-row-padding " style="margin:0 -16px">
+  <h2>Produtos</h2>
+  <div class="w3-row w3-quarter w3-margin-bottom">
+   <div class="w3-card-4 xtest w3-col" >
+      <div class="w3-container w3-padding-16" style="min-height:170px">
+         <a href="https://www.istoedinheiro.com.br/reclamacao-contra-credito-consignado-bate-recorde/"class="w3-hover-gray" target="_blank" style="text-decoration:none">Reclamação contra crédito consignado bate recorde</a>
+      </div>
+      <footer class="w3-container w3-light-gray ">
+         <p class="w3-small">https://www.istoedinheiro.com.br/</p>
+      </footer>
+   </div>
+</div>
+
+</div>
+
+<div id="Twitter" class="w3-container city w3-animate-opacity">
+  <h2>Twitter</h2>
+  <button onclick="myAccFunc('CGUonline')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Controladoria-Geral da União (CGU)</button>
+   <div id=CGUonline class="w3-hide">
+      <div class="w3-container">
+      <a href="https://twitter.com/CGUonline/status/1357041472353275909" class="w3-hover-gray"  target="_blank">RT @jairbolsonaro: - Para e eceber por e-mail dados sobre liberações de recursos públicos federais, por meio de convênios, para seu municíp…</a> <br> <br>
+      </div>
+   </div>
+<button onclick="myAccFunc('camaradeputados')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Câmara dos Deputados</button>
+   <div id=camaradeputados class="w3-hide">
+      <div class="w3-container">
+      <a href="https://twitter.com/camaradeputados/status/1357098462710489089" class="w3-hover-gray"  target="_blank">Com pautas como impeachment do presidente Bolsonaro, auxílio emergencial, combate à pandemia e luta antirracista, deputada @taliriapetrone assume a liderança do Psol. https://t.co/rRTzoZqvz5</a> <br> <br>
+      <a href="https://twitter.com/camaradeputados/status/1357110651211182090" class="w3-hover-gray"  target="_blank">Em seu discurso na cerimônia de abertura do #AnoLegislativo, presidente Bolsonaro defendeu reformas tributária e administrativa e disse que o País está preparado para garantir a vacinação dos brasileiros. Ouça:   https://t.co/rcVZqjmme5</a> <br> <br>
+      <a href="https://twitter.com/camaradeputados/status/1357118154858770433" class="w3-hover-gray"  target="_blank">O relator do projeto para acabar com supersalários no funcionalismo público (PL 6726/16), deputado @23rubensbueno, comemorou a inclusão do tema na lista de prioridades do governo. https://t.co/FAnehracVZ</a> <br> <br>
+      </div>
+   </div>
+<button onclick="myAccFunc('DigitalGovBr')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">DigitalGovBr</button>
+   <div id=DigitalGovBr class="w3-hide">
+      <div class="w3-container">
+      <a href="https://twitter.com/DigitalGovBr/status/1356990860752257024" class="w3-hover-gray"  target="_blank">Vc sabia que a Carteira da Pessoa Idosa já pode ser emitida pela internet? 👴👵💻
+
+🔗https://t.co/VFTX1WqI8t
+
+Avisa o vovô e a vovó que precisa de login no https://t.co/LD5rOdVkYQ, tá? É muito fácil se cadastrar! Mas se pintar dúvidas, é só acessar: https://t.co/JQ81conlBW 🤜🇧🇷🤛 https://t.co/9mRqONQcbB</a> <br> <br>
+      <a href="https://twitter.com/DigitalGovBr/status/1357034785491857408" class="w3-hover-gray"  target="_blank">RT @EconomiaSepec: A #SEPEC @MinEconomia e o @Inmetro firmaram, hoje (3), parceria de adesão ao #TransformaGov. Modernização da gestão dos…</a> <br> <br>
+      </div>
+   </div>
+<button onclick="myAccFunc('ItamaratyGovBr')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Itamaraty Brasil 🇧🇷</button>
+   <div id=ItamaratyGovBr class="w3-hide">
+      <div class="w3-container">
+      <a href="https://twitter.com/itamaratyGovBr/status/1356990780372623360" class="w3-hover-gray"  target="_blank">Oferta inicial brasileira para adesão ao Acordo sobre Contratações Governamentais - Nota conjunta do Ministério das Relações Exteriores e do Ministério da Economia: https://t.co/NIZnRmwqzf https://t.co/Nk8CMcyKfW</a> <br> <br>
+      </div>
+   </div>
+<button onclick="myAccFunc('Astro_Pontes')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Marcos Pontes</button>
+   <div id=Astro_Pontes class="w3-hide">
+      <div class="w3-container">
+      <a href="https://twitter.com/Astro_Pontes/status/1357014199470333953" class="w3-hover-gray"  target="_blank">Portaria do @MCTIc incentiva empresas a investirem em pesquisa e inovação
+
+Saiba mais: https://t.co/MuNG6vsYfC
+
+Confie nas Inovações Brasileiras!
+Grande Abraço Espacial
+
+Ministro Marcos Pontes
+👍👍🇧🇷🇧🇷
+
+#InovaçãoéMCTI #MCTI @jairbolsonaro @govbr @planalto @casacivilbr @secomvc https://t.co/H0ltCejaUN</a> <br> <br>
+      </div>
+   </div>
+<button onclick="myAccFunc('mctic')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Ministério da Ciência, Tecnologia e Inovações</button>
+   <div id=mctic class="w3-hide">
+      <div class="w3-container">
+      <a href="https://twitter.com/mctic/status/1357092561622618112" class="w3-hover-gray"  target="_blank">RT @Finep: Pesquisadora do #LNCC e da @ufrj, Ana Tereza é referência nas áreas de Bioinformática e Biologia Computacional. Destacou-se por…</a> <br> <br>
+      </div>
+   </div>
+<button onclick="myAccFunc('STF_oficial')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">STF</button>
+   <div id=STF_oficial class="w3-hide">
+      <div class="w3-container">
+      <a href="https://twitter.com/STF_oficial/status/1357071364453187585" class="w3-hover-gray"  target="_blank">A Suprema Corte está realizando um esforço p/ conclusão da digitalização do montante pendente de processos físicos. Em janeiro, foram digitalizados + de 1.000 processos. O STF tem apenas 900 processos físicos em andamento, que representam 3% do acervo. &gt;&gt; https://t.co/CqJgTxNNLN https://t.co/8pVzoVEO9M</a> <br> <br>
+      <a href="https://twitter.com/STF_oficial/status/1357074165900210179" class="w3-hover-gray"  target="_blank">⚠️Fundo Clima: União e BNDES têm cinco dias para prestar informações sobre utilização de recursos. O prazo foi estabelecido pelo ministro Luís Roberto Barroso, relator da ação que trata da atuação do governo federal em relação ao fundo. Saiba mais: https://t.co/xWJPSINDzV</a> <br> <br>
+      <a href="https://twitter.com/STF_oficial/status/1357101888198574081" class="w3-hover-gray"  target="_blank">Ministro determina abertura de inquérito para investigar vazamento de dados de ministros do @STF_oficial. ⚠️ O ministro Alexandre de Moraes determinou o envio imediato dos autos ao diretor da @policiafederal para investigação dos fatos. Leia: https://t.co/QRAS1wlInA</a> <br> <br>
+      </div>
+   </div>
+<button onclick="myAccFunc('SERPRO')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Serpro</button>
+   <div id=SERPRO class="w3-hide">
+      <div class="w3-container">
+      <a href="https://twitter.com/SERPRO/status/1356954672934903810" class="w3-hover-gray"  target="_blank">Portal #SerproLGPD | Conheça os dez temas prioritários da #ANPD para o biênio 2021-2022 💻⚖
+
+Agenda Prioritária da Autoridade Nacional de Proteção de Dados destaca regulamentação específica sobre a adequação de micro e pequenas empresas e startups à #LGPD https://t.co/9ZAgbOi10t https://t.co/uvsUq7ROGl</a> <br> <br>
+      <a href="https://twitter.com/SERPRO/status/1356955123122122752" class="w3-hover-gray"  target="_blank">RT @MinEconomia: #ESOCIAL | A adesão à entrega antecipada da DCTFWeb poderá ser feita – mediante opção irrevogável e irretratável – exclusi…</a> <br> <br>
+      <a href="https://twitter.com/SERPRO/status/1357026793396592645" class="w3-hover-gray"  target="_blank">RT @DigitalGovBr: Bibiii! 🔊
+
+Está pensando em comprar um carro? 🧐 Então saiba que você já pode sair da loja com o documento do veículo emit…</a> <br> <br>
+      </div>
+   </div>
+<button onclick="myAccFunc('TSEjusbr')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">TSE</button>
+   <div id=TSEjusbr class="w3-hide">
+      <div class="w3-container">
+      <a href="https://twitter.com/TSEjusbr/status/1357089113271377922" class="w3-hover-gray"  target="_blank">O app Boletim na Mão fornece o conteúdo dos Boletins de Urna de forma rápida e segura - é só escanear o QR Code do BU com ele. Você nem precisa de conexão com a internet. Faça a sua própria auditoria: https://t.co/O6KD75fgAc 😉 https://t.co/2UPPQoos0C</a> <br> <br>
+      <a href="https://twitter.com/TSEjusbr/status/1357099667666980866" class="w3-hover-gray"  target="_blank">Ouvidoria do @TSEjusbr divulga relatórios de atividades dos últimos três meses de 2020 📞 Documento traz estatísticas de atendimento aos cidadãos. Confira na matéria: https://t.co/zQciy02DQ3 ◀️ https://t.co/N2hu39R1ji</a> <br> <br>
+      </div>
+   </div>
+
+</div>
+</div>
+
+<div class="w3-container">
+  <hr>
+  <div class="w3-center">
+    <h2>Mudanças de Comando</h2>
+    <p w3-class="w3-large">Nomeações</p>
+  </div>
+<div class="w3-responsive w3-card-4">
+<table class="w3-table w3-striped w3-bordered">
+<thead>
+<tr class="w3-theme">
+  <th style="width:5%">Órgão</th>
+  <th style="width:20%">Hierarquia</th>
+  <th style="width:25%">Nome</th>
+  <th style="width:50%">Função</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+   <td>MCTI</td>
+   <td>Ministério da Ciência, Tecnologia e Inovações/Gabinete do Ministro</td>
+   <td>RICARDO CESAR MANGRICH</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-97-de-1-de-fevereiro-de-2021-302098794" target="_blank" class="w3-hover-gray">cargo em comissão de Coordenador-Geral de Tecnologias Estratégicas, código DAS 101.4, do Departamento de Tecnologias Aplicadas, da Secretaria de Empreendedorismo e Inovação deste Ministério (Processo SEI nº 01245.000208/2021-51).</a></td>
+</tr>
+<tr>
+   <td>ME</td>
+   <td>Ministério da Economia/Secretaria Especial de Desburocratização, Gestão e Governo Digital</td>
+   <td>MARIA CATARINA TORRES DE CARVALHO</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-760-de-3-de-fevereiro-de-2021-302102162" target="_blank" class="w3-hover-gray">cargo em comissão de Coordenador-Geral de Relacionamento e Portfólio, da Secretaria de Governo Digital, da Secretaria Especial de Desburocratização, Gestão e Governo Digital, código DAS 101.4.</a></td>
+</tr>
+<tr>
+   <td>MEC</td>
+   <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia Goiano</td>
+   <td>PIERRY TEZA</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-111-de-2-de-fevereiro-de-2021-302111120" target="_blank" class="w3-hover-gray">cargo de Professor de EBTT, Matrícula SIAPE nº 2091968, cedido do Instituto Federal de Santa Catarina, para ocupar o cargo comissionado de Assessor Especial do Núcleo Estruturante da Política de Inovação (NEPI) do Instituto Federal Goiano, código CD-02.</a></td>
+</tr>
+<tr>
+   <td>MEC</td>
+   <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte</td>
+   <td>ANTONIA FRANCIMAR DA SILVA</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-236-de-3-de-fevereiro-de-2021-302111944" target="_blank" class="w3-hover-gray">cargo de confiança de Reitor-CD.1, integrante da Estrutura Administrativa da Reitoria.</a></td>
+</tr>
+<tr>
+   <td>MS</td>
+   <td>Ministério da Saúde/Agência Nacional de Vigilância Sanitária</td>
+   <td>SHEILA MARTINS CORDOVIL</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-70-de-3-de-fevereiro-de-2021-302212655" target="_blank" class="w3-hover-gray">cargo de Gerente, código CGE-IV, da Gerência de Tecnovigilância, da Gerência-Geral de Monitoramento de Produtos Sujeitos à Vigilância Sanitária, ficando Exonerada, a pedido, do referido cargo, a servidora SHEILA MARTINS CORDOVIL, matrícula SIAPE nº 2438501.</a></td>
+</tr>
+<tr>
+   <td>MS</td>
+   <td>Ministério da Saúde/Gabinete do Ministro</td>
+   <td>CLEVERSON BOECHAT TINOCO PONCIANO</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-213-de-3-de-fevereiro-de-2021-302141552" target="_blank" class="w3-hover-gray">cargo de Coordenador-Geral de Planejamento, código DAS-101.4, nº 05.0168, da Subsecretaria de Planejamento e Orçamento, da Secretaria-Executiva.</a></td>
+</tr>
+<tr>
+   <td>JUDICIÁRIO</td>
+   <td>Poder Judiciário/Superior Tribunal Militar</td>
+   <td>FERNANDA BRINGEL DE CARVALHO MARTIS LASMAR</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/ato-n-3.197-de-3-de-fevereiro-de-2021-302219657" target="_blank" class="w3-hover-gray">cargo em comissão de DIRETOR DE SECRETARIA, código STM-CJ-03, da Auditoria da 12ª CJM.</a></td>
+</tr>
+<tr>
+   <td>JUDICIÁRIO</td>
+   <td>Poder Judiciário/Superior Tribunal de Justiça</td>
+   <td>NOÊMIA PEREIRA OLIVEIRA</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-33-de-2-de-fevereiro-de-2021-302154988" target="_blank" class="w3-hover-gray"></a></td>
+</tr>
+<tr>
+   <td>JUDICIÁRIO</td>
+   <td>Poder Judiciário/Superior Tribunal de Justiça</td>
+   <td>DUANE CARVALHO DE QUEIROZ</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-33-de-2-de-fevereiro-de-2021-302154988" target="_blank" class="w3-hover-gray"></a></td>
+</tr>
+<tr>
+   <td>JUDICIÁRIO</td>
+   <td>Poder Judiciário/Supremo Tribunal Federal</td>
+   <td>WANDERSON KLEBER DE OLIVEIRA</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-21-de-28-de-janeiro-de-2021-302218757" target="_blank" class="w3-hover-gray">cargo em comissão de Secretário, nível CJ-3, na Secretaria de Serviços Integrados de Saúde.</a></td>
+</tr>
+<tr>
+   <td>JUDICIÁRIO</td>
+   <td>Poder Judiciário/Tribunal Regional do Trabalho da 1ª Região</td>
+   <td>FRANCO THOMÉ SIMONI</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-87/sgp-de-3-de-fevereiro-de-2021-302246085" target="_blank" class="w3-hover-gray">cargo em comissão de Assessor da Presidência-AIC, CJ-3, da Assessoria de Imprensa e Comunicação Social (PR), cuja vacância ocorreu em 21 de janeiro de 2021, do Grupo Direção e Assessoramento Superiores do Quadro de Pessoal do Tribunal Regional do Trabalho da Primeira Região.</a></td>
+</tr>
+
+</tbody>
+</table>
+</div>
+</div>
+
+<div class="w3-container">
+  <hr>
+  <div class="w3-center">
+    <p w3-class="w3-large">Exonerações</p>
+  </div>
+<div class="w3-responsive w3-card-4">
+<table class="w3-table w3-striped w3-bordered">
+<thead>
+<tr class="w3-theme">
+  <th style="width:5%">Órgão</th>
+  <th style="width:20%">Hierarquia</th>
+  <th style="width:25%">Nome</th>
+  <th style="width:50%">Função</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+   <td>MC</td>
+   <td>Ministério da Cidadania/Gabinete do Ministro</td>
+   <td>TATIANE VENDRAMINI PARRA RODA</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/portaria-mc-n-10-de-2-de-fevereiro-de-2021-302095365" target="_blank" class="w3-hover-gray">cargo em comissão de Coordenador-Geral, código DAS 101.4, da Coordenação-Geral de Apoio Institucional, do Departamento de Atenção à Primeira Infância, da Secretaria Nacional de Atenção à Primeira Infância, da Secretaria Especial do Desenvolvimento Social, deste Ministério.</a></td>
+</tr>
+<tr>
+   <td>MEC</td>
+   <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte</td>
+   <td>DANTE HENRIQUE MOURA</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-235-de-3-de-fevereiro-de-2021-302155888" target="_blank" class="w3-hover-gray">cargo de confiança de Reitor - CD.1, integrante da Estrutura Administrativa da Reitoria, para o qual foi nomeado por meio da Portaria nº 155/2021 - RE/IFRN, de 21 de janeiro de 2021.</a></td>
+</tr>
+<tr>
+   <td>MTur</td>
+   <td>Ministério do Turismo/Gabinete do Ministro</td>
+   <td>EXONERAR MONICA FIGUEIREDO BRAUNSCHWEIGER XEXEO</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/portaria-de-pessoal-mtur-n-51-de-3-de-fevereiro-de-2021-302125089" target="_blank" class="w3-hover-gray">cargo em comissão de Diretora, código DAS 101.4, do Museu Nacional de Belas Artes, da Unidade Museológica I, do Instituto Brasileiro de Museus, vinculado a este Ministério, a contar de 27 de janeiro de 2021.</a></td>
+</tr>
+<tr>
+   <td>JUDICIÁRIO</td>
+   <td>Poder Judiciário/Superior Tribunal Militar</td>
+   <td>MARCELO AZEVEDO DE PAULA</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/ato-n-3.197-de-3-de-fevereiro-de-2021-302219657" target="_blank" class="w3-hover-gray">cargo em comissão de DIRETOR DE SECRETARIA, código STM-CJ-03, da Auditoria da 12ª CJM.</a></td>
+</tr>
+<tr>
+   <td>JUDICIÁRIO</td>
+   <td>Poder Judiciário/Superior Tribunal de Justiça</td>
+   <td>DUANE CARVALHO DE QUEIROZ</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-33-de-2-de-fevereiro-de-2021-302154988" target="_blank" class="w3-hover-gray"></a></td>
+</tr>
+<tr>
+   <td>JUDICIÁRIO</td>
+   <td>Poder Judiciário/Superior Tribunal de Justiça</td>
+   <td>NOÊMIA PEREIRA OLIVEIRA</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-33-de-2-de-fevereiro-de-2021-302154988" target="_blank" class="w3-hover-gray"></a></td>
+</tr>
+<tr>
+   <td>PRESIDÊNCIA</td>
+   <td>Presidência da República/Casa Civil/Gabinete de Intervenção Federal no Estado do Rio de Janeiro</td>
+   <td>FRANCISCO CARLOS LEITE</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-2-de-1-de-fevereiro-de-2021-302061723" target="_blank" class="w3-hover-gray">cargo de Coordenador Geral de Gestão de Pessoal e Material, código DAS 101.4, do Gabinete de Intervenção Federal no Estado do Rio de Janeiro da Casa Civil da Presidência da República, a partir de 01 de fevereiro de 2021.</a></td>
+</tr>
+
+</tbody>
+</table>
+</div>
+</div>
+
+<div class="w3-container">
+  <hr>
+  <div class="w3-center">
+    <p w3-class="w3-large">Outros</p>
+  </div>
+<div class="w3-responsive w3-card-4">
+<table class="w3-table w3-striped w3-bordered">
+<thead>
+<tr class="w3-theme">
+  <th style="width:5%">Órgão</th>
+  <th style="width:20%">Hierarquia</th>
+  <th style="width:25%">Nome</th>
+  <th style="width:50%">Função</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+   <td></td>
+   <td>Ops. Nada aqui.</td>
+   <td></td>
+   <td><a href="#" target="_blank" class="w3-hover-gray"></a></td>
+</tr>
+
+</tbody>
+</table>
+</div>
+</div>
+
+<div class="w3-container">
+  <hr>
+  <div class="w3-center">
+    <h2>Publicações DOU - Seção 3</h2>
+    <p w3-class="w3-large">Dataprev</p>
+  </div>
+<div class="w3-responsive w3-card-4">
+<table class="w3-table w3-striped w3-bordered">
+<thead>
+<tr class="w3-theme">
+  <th style="width:25%">Tipo</th>
+  <th style="width:25%">Hierarquia</th>
+  <th style="width:50%">Extrato</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+   <td>Extrato de Termo Aditivo</td>
+   <td>Ministério da Economia/Empresa de Tecnologia e Informações da Previdência/Diretoria de Finanças e Serviços Logísticos/Superintendência de Serviços Logísticos/Departamento de Gestão Administrativa/Divisão de Gestão Administrativa (RN)</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/extrato-de-termo-aditivo-uasg-335018-302262625" target="_blank" class="w3-hover-gray">EXTRATO DE TERMO ADITIVO - UASG 335018 PROCESSO Nº 44103.001013/2020-75. CONTRATO Nº18.092011.2020.CONTRATADA:IMUNIZADORA GUARANI LTDA-ME.CNPJ 10.633.029/0001-64.ESPÉCIE:Primeiro Termo Aditivo.OBJETO:A DATAPREV e a CONTRATADA, resolvem aditar o Contrato Principal nº 18.092011.2020 para prorrogar sua vigência por mais 12(doze) meses. Pedido de Compra nº 092195.Valor:R$ 1.340,00 (hum mil, trezentos ...</a></td>
+</tr>
+<tr>
+   <td>Aviso de Licitação-Pregão</td>
+   <td>Ministério da Economia/Empresa de Tecnologia e Informações da Previdência/Diretoria de Finanças e Serviços Logísticos/Superintendência de Serviços Logísticos/Departamento de Compras</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/aviso-de-licitacao-302262552" target="_blank" class="w3-hover-gray">AVISO DE LICITAÇÃO Pregão Eletrônico Nº 724/2021 - UASG 238014 Nº Processo: 44103009172202019. Objeto: Contratação de empresa especializada para prestação de serviços de Auditoria Independente (complemento da descrição ver no item 1 do Apenso - Termo de Referência do Edital).. Total de Itens Licitados: 1. Edital: 04/02/2021 das 08h00 às 12h00 e das 13h00 às 17h00. Endereço: Rua Prof. Alvaro Rodrig...</a></td>
+</tr>
+<tr>
+   <td>Extrato de Termo Aditivo</td>
+   <td>Ministério da Economia/Empresa de Tecnologia e Informações da Previdência</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/extrato-de-termo-aditivo-uasg-238014-302194128" target="_blank" class="w3-hover-gray">EXTRATO DE TERMO ADITIVO - UASG 238014 Processo nº 44101.000061/2017-61; Contrato nº 01.026755.2018; Modalidade: Pregão Eletrônico nº 521/2017; Contratada: Consórcio Dataprev PE 521/2017, constituído pelas empresas TELEMAR NORTE LESTE S/A (EM RECUPERÇÃO JUDICIAL), líder do Consórcio, inscrita no CNPJ sob o nº 33.000.118/0001-79 e a OI MÓVEL S/A (EM RECUPERAÇÃO JUDICIAL), inscrita no CNPJ sob o núm...</a></td>
+</tr>
+
+</tbody>
+</table>
+</div>
+</div>
+
+<div class="w3-container">
+  <hr>
+  <div class="w3-center">
+    <p w3-class="w3-large">Clientes</p>
+  </div>
+<div class="w3-responsive w3-card-4">
+<table class="w3-table w3-striped w3-bordered">
+<thead>
+<tr class="w3-theme">
+  <th style="width:25%">Tipo</th>
+  <th style="width:25%">Hierarquia</th>
+  <th style="width:50%">Extrato</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+   <td>Aviso de Retificação</td>
+   <td>Ministério das Comunicações/Telecomunicações Brasileiras S.A.</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/aviso-de-retificacao-302168060" target="_blank" class="w3-hover-gray">Aviso de Retificação A Telecomunicações Brasileiras S.A. - TELEBRAS torna público, para conhecimento dos interessados, a retificação do Extrato de Contrato, processo nº TLB-PRO-2020/08320, publicado no D.O.U nº 18, Seção 3, pág. 06, de 01/02/2021. onde se lê: Partes: BLS COMPANY ASSESSORIA CONTÁBIL LTDA CNPJ/MF: 17.465.523/0001-06 leia-se: Partes: SERVIÇO FEDERAL DE PROCESSAMENTO DE DADOS - SERPRO...</a></td>
+</tr>
+<tr>
+   <td>Extrato de Contrato</td>
+   <td>Ministério do Desenvolvimento Regional/Companhia Brasileira de Trens Urbanos/Administração Central</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/extrato-de-contrato-302184582" target="_blank" class="w3-hover-gray">EXTRATO DE CONTRATO ESPÉCIE: Contrato nº 011-2020/DP. PROCESSO Nº 11.612/2020. OBJETO: A contratação de empresa especializada para a prestação de serviços de fornecimento de Link Dedicado protocolo IP/MPLS com acesso à Internet, incluindo Hardware necessário para comunicação entre a Administração Central, Unidades Administrativas e Escritórios Regionais da CBTU, com serviços de manutenção e suport...</a></td>
+</tr>
+<tr>
+   <td>Extrato de Termo Aditivo</td>
+   <td>Ministério da Economia/Serviço Federal de Processamento de Dados/Regional Brasília</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/extrato-de-termo-aditivo-n-87.388/2021-uasg-803010-302262775" target="_blank" class="w3-hover-gray">EXTRATO DE TERMO ADITIVO Nº 87.388/2021 - UASG: 803010 Credenciamento Médico nº: 58.422/2017. Processo nº: 00288-2017. Inexigibilidade nº: 00288/2017. Contratante: SERVIÇO FEDERAL DE PROCESSAMENTO DE DADOS (SERPRO). CNPJ do Credenciado: 12.992.115/0001-99 - INSTITUTO DE CATARATA DE BRASÍLIA LTDA. Objeto: Aplicar reajuste dos valores dos serviços. Vigência: 31/12/2020 a 12/03/2022. Data da Assinatu...</a></td>
+</tr>
+<tr>
+   <td>Aviso</td>
+   <td>Ministério da Economia/Serviço Federal de Processamento de Dados/Regional São Paulo</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/aviso-de-reabertura-de-prazo-302151767" target="_blank" class="w3-hover-gray">AVISO DE REABERTURA DE PRAZO PREGÃO Nº 1146/2020 Comunicamos a reabertura de prazo da licitação supracitada, processo Nº 1146. , publicada no D.O.U de 22/09/2020 . Objeto: Pregão Eletrônico - Circuitos Internet em Banda larga Novo Edital: 04/02/2021 das 08h00 às 12h00 e de13h00 às 17h00. Endereço: Www.comprasgovernamentais.gov.br SAO PAULO - SPEntrega das Propostas: a partir de 04/02/2021 às 08h00...</a></td>
+</tr>
+<tr>
+   <td>Extrato de Termo Aditivo</td>
+   <td>Ministério da Economia/Serviço Federal de Processamento de Dados/Regional Recife</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/extrato-de-termo-aditivo-n-87.354/2021-uasg-803040-302151690" target="_blank" class="w3-hover-gray">EXTRATO DE TERMO ADITIVO Nº 87.354/2021 - UASG 803040 Contrato RG Nº 61.481/2018. Processo nº: 00042-2018. Pregão nº: 00042/2018. Contratante: SERVIÇO FEDERAL DE PROCESSAMENTO DE DADOS (SERPRO). CNPJ da Contratada: 25.452.166/0001-70 - VR CONSTRUÇÕES E SERVIÇOS EIRELI - EPP. Objeto: Promover o reequilíbrio econômico financeiro do contrato RG 61.481. Vigência: 01/02/2021 a 19/03/2021. Data da Assin...</a></td>
+</tr>
+<tr>
+   <td>Edital de Intimação</td>
+   <td>Ministério da Economia/Secretaria Especial da Receita Federal do Brasil/Superintendência Regional da 8ª Região Fiscal/Delegacia da Receita Federal do Brasil em Ribeirão Preto</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/edital-de-intimacao-302147991" target="_blank" class="w3-hover-gray">EDITAL DE INTIMAÇÃO Tendo em vista o art. 87 da Lei 8.666/93, e o item 11.1 do edital nº 810900/00001/2020, e visando garantir o contraditório e a ampla e prévia defesa ao interessado, intimo FIREWALL COMÉRCIO E IMPORTAÇÃO DE EQUIPAMENTOS WIRELESS EIRELI, CNPJ 28.759.759/0001-71, por não ter sido localizado em seu endereço registado nos sistemas informatizados da Receita Federal, para, no prazo de...</a></td>
+</tr>
+<tr>
+   <td>Extrato de Termo Aditivo</td>
+   <td>Ministério da Economia/Serviço Federal de Processamento de Dados/Regional Brasília</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/extrato-de-termo-aditivo-n-87.346/2021-uasg-803010-302151617" target="_blank" class="w3-hover-gray">EXTRATO DE TERMO ADITIVO Nº 87.346/2021 - UASG: 803010 Credenciamento Médico n°: 57.313/2016. Processo nº: 001809-2016. Inexigibilidade nº: 001809/2016. Contratante: SERVIÇO FEDERAL DE PROCESSAMENTO DE DADOS (SERPRO). CNPJ do Credenciado: 15.613.440/0001-91 - CLINICA MEDICA DE OTORRINOLARINGOLOGIA E CIRURGIA CERVICO FACIAL OTORRINODFACE LTDA. Objeto: Aplicar reajuste dos valores dos serviços. Vigê...</a></td>
+</tr>
+<tr>
+   <td>Extrato de Distrato</td>
+   <td>Ministério da Economia/Serviço Federal de Processamento de Dados/Regional Brasília</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/extrato-de-distrato-n-87.350/2021-uasg-803010-302151544" target="_blank" class="w3-hover-gray">EXTRATO DE DISTRATO Nº 87.350/2021 - UASG 803010 Processo N°: 01892-2018. Pregão Nº: 01892/2018. Contratante: SERVIÇO FEDERAL DE PROCESSAMENTO DE DADOS (SERPRO). CNPJ da contratada: 36.990.588/0001-15 - CENTRAL NORTE COMERCIO E SERVICOS DE APOIO ADMINISTRATIVO EIRELI. Objeto: Distratar o Contrato RG no 66.709, por acordo entre as partes, a partir de 01/10/2020. Data da Assinatura: 01/02/2021.</a></td>
+</tr>
+<tr>
+   <td>Aviso de Licitação-Pregão</td>
+   <td>Ministério da Economia/Serviço Federal de Processamento de Dados</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/aviso-de-licitacao-302262702" target="_blank" class="w3-hover-gray">AVISO DE LICITAÇÃO Pregão Eletrônico Nº 16/2021 - UASG 806030 Nº Processo: 00016-2021. Objeto: Contratação de empresa especializada para prestação continuada dos serviços de coffee break por demanda, sem mão de obra dedicada, em Brasília-DF.. Total de Itens Licitados: 1. Edital: 04/02/2021 das 08h00 às 12h00 e das 14h00 às 17h50. Endereço: Sgan 601 Modulo v, Asa Norte - BRASÍLIA/DF ou https://www....</a></td>
+</tr>
+
+</tbody>
+</table>
+</div>
+</div>
+
+<div class="w3-container">
+  <hr>
+  <div class="w3-center">
+    <p w3-class="w3-large">Outros</p>
+  </div>
+<div class="w3-responsive w3-card-4">
+<table class="w3-table w3-striped w3-bordered">
+<thead>
+<tr class="w3-theme">
+  <th style="width:25%">Tipo</th>
+  <th style="width:25%">Hierarquia</th>
+  <th style="width:50%">Extrato</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+   <td>Aviso de Licitação-Pregão</td>
+   <td>Ministério da Saúde/Agência Nacional de Saúde Suplementar</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/aviso-de-licitacao-302236235" target="_blank" class="w3-hover-gray">AVISO DE LICITAÇÃO Pregão Eletrônico Nº 1/2021 - UASG 253003 Nº Processo: 33910029478202060. Objeto: Contratação da subscrição de licenças de uso de softwares Microsoft e Suporte Técnico Premier na modalidade Microsoft Enterprise Agreement Subscription for Government, para atender ao ambiente computacional da Agência Nacional de Saúde - ANS, conforme condições, quantidades e exigências estabelecid...</a></td>
+</tr>
+<tr>
+   <td>Extrato de Contrato</td>
+   <td>Ministério da Justiça e Segurança Pública/Conselho Administrativo de Defesa Econômica</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/extrato-de-contrato-n-2/2021-uasg-303001-cade/mj-302291170" target="_blank" class="w3-hover-gray">EXTRATO DE CONTRATO Nº 2/2021 - UASG 303001 - CADE/MJ Nº Processo: 08700.000399/2021-86. Pregão Nº 9/2020. Contratante: CONSELHO ADMINISTRATIVO DE DEFESA ECONOMICA. Contratado: 04.892.991/0001-15 - TELTEC SOLUTIONS LTDA. Objeto: O objeto do presente instrumento é a contratação de serviços de tecnologia da informação e comunicação, de subscrição de licenças de uso de softwares microsoft, do tipo su...</a></td>
+</tr>
+<tr>
+   <td>Extrato de Contrato</td>
+   <td>Ministério da Defesa/Comando da Marinha/Gabinete do Comandante</td>
+   <td><a href="https://www.in.gov.br/web/dou/-/extrato-de-contrato-n-2/2021-uasg-711000-gcm-302258487" target="_blank" class="w3-hover-gray">EXTRATO DE CONTRATO Nº 2/2021 - UASG 711000 - GCM Nº Processo: 63394.001087/2020-28. Pregão Nº 14/2020. Contratante: GABINETE DO COMANDANTE DA MARINHA. Contratado: 01.771.935/0002-15 - INGRAM MICRO BRASIL LTDA. Objeto: Contratação de Licenças de Acesso para Cliente (Client Access License - CAL), do tipo "por dispositivo", da empresa Microsoft Corporation, na modalidade contratual Select Plus for G...</a></td>
+</tr>
+
+</tbody>
+</table>
+</div>
+</div>
+
+<!-- Footer -->
+<br>
+<footer class="w3-container w3-theme-dark w3-padding-16">
+  <h3>Dataprev</h3>
+  <p>Departamento de Monitoramento e Estratégia Comercial - DEME</p>
+  <p><i class="fa fa-exclamation-circle"></i> Informações, subscrição e cancelamento: envie-nos um <a class="w3-text-white" href="mailto:arton.peixoto@dataprev.gov.br;beatriz.katumata@dataprev.gov.br&subject=iSURC%20Info"><span class="w3-xlarge">
+    <i class="fa fa-envelope-o"></i></span></a>
+  <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
+
+   <span class="w3-text w3-theme-light w3-padding">Topo</span>    
+    <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+
+</footer>
+
+<!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
+<script>
+// Side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "100%";
+  x.style.fontSize = "40px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Tabs
+function openCity(evt, cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  var activebtn = document.getElementsByClassName("testbtn");
+  for (i = 0; i < x.length; i++) {
+    activebtn[i].className = activebtn[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-dark-grey";
+}
+
+var mybtn = document.getElementsByClassName("testbtn")[0];
+mybtn.click();
+
+// Accordions
+function myAccFunc(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Slideshows
+var slideIndex = 1;
+
+function plusDivs(n) {
+  slideIndex = slideIndex + n;
+  showDivs(slideIndex);
+}
+
+function showDivs(n) {
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+showDivs(1);
+
+// Progress Bars
+function move() {
+  var elem = document.getElementById("myBar");   
+  var width = 5;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width == 100) {
+      clearInterval(id);
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+      elem.innerHTML = width * 1  + '%';
+    }
+  }
+}
+</script>
+
+</body>
+</html>
