@@ -18,570 +18,3018 @@
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-indigo.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
-<body>
 
 <!-- Side Navigation -->
 <nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center" style="display:none" id="mySidebar">
-  <h1 class="w3-xxxlarge w3-text-theme">Menu</h1>
-  <button class="w3-bar-item w3-button" onclick="w3_close()">Fechar <i class="fa fa-remove"></i></button>
-<!--  <a href="#" class="w3-bar-item w3-button">Inscrever</a>
-  <a href="#" class="w3-bar-item w3-button">Cancelar Inscrição</a>
-  <a href="#" class="w3-bar-item w3-button">Histórico</a>
--->
-  <a href="#" class="w3-bar-item w3-button">Sobre</a>
+    <h1 class="w3-xxxlarge w3-text-theme">Menu</h1>
+    <button class="w3-bar-item w3-button" onclick="w3_close()">Fechar <i class="fa fa-remove"></i></button>
+    <!--  <a href="#" class="w3-bar-item w3-button">Inscrever</a>
+      <a href="#" class="w3-bar-item w3-button">Cancelar Inscrição</a>
+      <a href="#" class="w3-bar-item w3-button">Histórico</a>
+    -->
+    <a href="#" class="w3-bar-item w3-button">Sobre</a>
 </nav>
 
 <!-- Header -->
 <header class="w3-container w3-theme w3-padding" style="background-image: url('https://image.freepik.com/free-vector/beautiful-wavy-background_23-2148465605.jpg');background-size: cover"  id="myHeader">
-  <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
-  <div class="w3-center">
- <img src="https://servicos.dataprev.gov.br/wp-content/uploads/2020/07/marcaDTPbranco-1.png" style="width:10%">
- <h1 class="w3-xxxlarge w3-animate-bottom">INFORMATIVO COMERCIAL SURC</h1>
-<!-- <a href="https://www.spsp.org.br/2019/07/31/juntos-pela-amamentacao-agosto-dourado/">
-    <img src="http://curiosamente.diariodepernambuco.com.br/wp-content/uploads/2018/02/agosto-dourado.png" style="width:5%">
-</a> -->
-  <h4>Número 247</h4>
-  <h5>sexta-feira, 26 de fevereiro de 2021</h5>
-  </div>
- 
+    <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i>
+    <div class="w3-center">
+        <img src="/static/informativo/marcaDTP.png" style="width:10%">
+        <h1 class="w3-xxxlarge w3-animate-bottom">INFORMATIVO COMERCIAL SURC</h1>
+        <h4>Número 248</h4>
+        <h5>Segunda-feira, 1 de Março de 2021</h5>
+        
+        
+    </div>
 </header>
+
+
 
 <!-- Modal Avisos-->
 <div id="id01" class="w3-modal">
     <div class="w3-modal-content w3-card-4 w3-animate-top">
-      <header class="w3-container w3-theme-l1"> 
+      <header class="w3-container w3-theme-l1">
         <span onclick="document.getElementById('id01').style.display='none'"
         class="w3-button w3-display-topright">×</span>
         <h4>Avisos Importantes</h4>
       </header>
       <div class="w3-padding">
-           
+          
       </div>
     </div>
 </div>
 
+<body>
+
+<!-- Modal Avisos-->
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-top">
+        <header class="w3-container w3-theme-l1">
+        <span onclick="document.getElementById('id01').style.display='none'"
+              class="w3-button w3-display-topright">×</span>
+            <h4>Avisos Importantes</h4>
+        </header>
+        <div class="w3-padding">
+        </div>
+    </div>
+</div>
+
+<!-- Destaques -->
+
 <div class="w3-row-padding w3-center w3-margin-top">
-  <div class="w3-row w3-third w3-margin-bottom">
-   <div class="w3-card-4 xtest w3-col w3-display-container " style="min-height:500px">
-      <header>
-         <h3>Concorrência</h3>
-      </header>
-      <div>
-         <img src="https://cryptoid.com.br/wp-content/uploads/2021/02/impostoderenda2021declaracao.jpeg" alt="Imagem Destaque" style="width:100%;height:200px">
-         <a href="https://cryptoid.com.br/identidade-digital-destaques/imposto-de-renda-2021-estreia-com-novidades-tecnologicas-e-novas-regras/" style="text-decoration:none" class="w3-hover-gray" target="_blank">Imposto de Renda 2021 estreia com novidades tecnológicas e novas regras | CRYPTOID <br> </a>
-         <a href="https://cryptoid.com.br/identidade-digital-destaques/imposto-de-renda-2021-estreia-com-novidades-tecnologicas-e-novas-regras/" style="text-decoration:none" class="w3-hover-gray w3-small" target="_blank">Prazo de entrega da Declaração do Imposto de Renda será do dia 1º de março a 30 de abril e programa já estará disponível amanhã com inovações</a>
-         <p class="w3-small w3-text-theme">https://cryptoid.com.br/</p>
-      </div>
-      <footer class="w3-container w3-light-gray ">
-         <a href="#Concorrencia" class="w3-button w3-block w3-center-align w3-display-bottommiddle" onclick="openCity(event,'Concorrencia')">Mais notícias</a>
-      </footer>
-   </div>
-</div><div class="w3-row w3-third w3-margin-bottom">
-   <div class="w3-card-4 xtest w3-col w3-display-container " style="min-height:500px">
-      <header>
-         <h3>Privado</h3>
-      </header>
-      <div>
-         <img src="https://www.cliccamaqua.com.br/images/noticias/img_62916_foto_1.jpg" alt="Imagem Destaque" style="width:100%;height:200px">
-         <a href="https://www.cliccamaqua.com.br/noticia/62916/alerta-do-distanciamento-controlado-reforca-a-alternativa-de-servicos-digitais.html" style="text-decoration:none" class="w3-hover-gray" target="_blank">Alerta do Distanciamento Controlado reforça a alternativa de serviços digitais | Clic Camaquã <br> </a>
-         <a href="https://www.cliccamaqua.com.br/noticia/62916/alerta-do-distanciamento-controlado-reforca-a-alternativa-de-servicos-digitais.html" style="text-decoration:none" class="w3-hover-gray w3-small" target="_blank">A confirmação do mapa de Distanciamento Controlado com 11 regiões em bandeira preta – que representa altíssimo risco de contágio por coronavírus –</a>
-         <p class="w3-small w3-text-theme">https://www.cliccamaqua.com.br</p>
-      </div>
-      <footer class="w3-container w3-light-gray ">
-         <a href="#Privado" class="w3-button w3-block w3-center-align w3-display-bottommiddle" onclick="openCity(event,'Privado')">Mais notícias</a>
-      </footer>
-   </div>
-</div><div class="w3-row w3-third w3-margin-bottom">
-   <div class="w3-card-4 xtest w3-col w3-display-container " style="min-height:500px">
-      <header>
-         <h3>Produtos</h3>
-      </header>
-      <div>
-         <img src="https://noticiasconcursos.com.br/wp-content/uploads/2020/08/noticiasconcursos.com.br-auxilio-emergencial.jpg" alt="Imagem Destaque" style="width:100%;height:200px">
-         <a href="https://noticiasconcursos.com.br/direitos-trabalhador/auxilio-emergencial-em-2021-tera-reducao-de-beneficiados-por-conta-do-cruzamento-de-dados/" style="text-decoration:none" class="w3-hover-gray" target="_blank">Auxílio emergencial em 2021 terá redução de beneficiados por conta do cruzamento de dados <br> </a>
-         <a href="https://noticiasconcursos.com.br/direitos-trabalhador/auxilio-emergencial-em-2021-tera-reducao-de-beneficiados-por-conta-do-cruzamento-de-dados/" style="text-decoration:none" class="w3-hover-gray w3-small" target="_blank">Em torno de 33 milhões de brasileiros, mais os 14 milhões de beneficiários do programa Bolsa Família, foram selecionados através</a>
-         <p class="w3-small w3-text-theme">https://noticiasconcursos.com.br</p>
-      </div>
-      <footer class="w3-container w3-light-gray ">
-         <a href="#" class="w3-button w3-block w3-center-align w3-display-bottommiddle" onclick="openCity(event,'')">Mais notícias</a>
-      </footer>
-   </div>
-</div>
+    
+    <div class="w3-row w3-third w3-margin-bottom">
+        <div class="w3-card-4 xtest w3-col w3-display-container " style="min-height:500px">
+            <div>
+                <img src=https://www.cnj.jus.br/wp-content/uploads/2021/02/webinar-inteligencia-artificial-fgv-26022021.jpg alt="Imagem Destaque" style="width:100%;height:200px">
+                <b><a href=https://www.cnj.jus.br/pesquisa-identifica-projetos-de-inteligencia-artificial-no-judiciario/ style="text-decoration:none" class="w3-hover-gray w3-text-theme" target="_blank">Pesquisa identifica projetos de inteligência artificial no Judiciário - Portal CNJ</a></b> <br>
+                <a href=https://www.cnj.jus.br/pesquisa-identifica-projetos-de-inteligencia-artificial-no-judiciario/ style="text-decoration:none" class="w3-hover-gray w3-small" target="_blank">Nesta sexta-feira (26/2), às 10h, a Fundação Getúlio Vargas (FGV) apresenta o relatório da 1ª Fase da Pesquisa “Tecnologia Aplicada à Gestão dos Conflitos no Âmbito do Poder Judiciário com Ênfase em Inteligência Artificial”. O estudo apresenta um inventário inédito dos projetos de inteligência artificial implementados e em desenvolvimento nos tribunais brasileiros e no Conselho …</a>
+            </div>
+            <footer class="w3-container w3-light-gray ">
+                <a href="https://www.cnj.jus.br/" class="w3-button w3-block w3-center-align w3-display-bottommiddle w3-small w3-text-theme">https://www.cnj.jus.br/</a>
+            </footer>
+        </div>
+    </div>
+    
+    <div class="w3-row w3-third w3-margin-bottom">
+        <div class="w3-card-4 xtest w3-col w3-display-container " style="min-height:500px">
+            <div>
+                <img src=https://www.mixvale.com.br/wp-content/uploads/2020/09/previdencia-socila-inss-1000x600.jpeg alt="Imagem Destaque" style="width:100%;height:200px">
+                <b><a href=https://www.mixvale.com.br/2021/02/25/nova-assistente-virtual-do-inss-faz-atendimentos-acompanhe/ style="text-decoration:none" class="w3-hover-gray w3-text-theme" target="_blank">Nova assistente virtual do INSS faz atendimentos: Acompanhe</a></b> <br>
+                <a href=https://www.mixvale.com.br/2021/02/25/nova-assistente-virtual-do-inss-faz-atendimentos-acompanhe/ style="text-decoration:none" class="w3-hover-gray w3-small" target="_blank">Nova assistente virtual do INSS faz atendimentos: Acompanhe. O Instituto Nacional do Seguro Social (INSS) disponibilizou uma novidade: a assistente virtual, Heloísa – ou simplesmente Helô – que pode ser acessada pelo Meu INSS, site e aplicativo. Por meio do serviço, segurados e cidadãos em geral podem conversar com a atendente virtual e tirar dúvidas […]</a>
+            </div>
+            <footer class="w3-container w3-light-gray ">
+                <a href="https://www.mixvale.com.br/" class="w3-button w3-block w3-center-align w3-display-bottommiddle w3-small w3-text-theme">https://www.mixvale.com.br/</a>
+            </footer>
+        </div>
+    </div>
+    
+    <div class="w3-row w3-third w3-margin-bottom">
+        <div class="w3-card-4 xtest w3-col w3-display-container " style="min-height:500px">
+            <div>
+                <img src=https://noticiasconcursos.com.br/wp-content/uploads/2020/08/noticiasconcursos.com.br-auxilio-emergencial.jpg alt="Imagem Destaque" style="width:100%;height:200px">
+                <b><a href=https://noticiasconcursos.com.br/direitos-trabalhador/auxilio-emergencial-em-2021-tera-reducao-de-beneficiados-por-conta-do-cruzamento-de-dados/ style="text-decoration:none" class="w3-hover-gray w3-text-theme" target="_blank">Auxílio emergencial em 2021 terá redução de beneficiados por conta do cruzamento de dados</a></b> <br>
+                <a href=https://noticiasconcursos.com.br/direitos-trabalhador/auxilio-emergencial-em-2021-tera-reducao-de-beneficiados-por-conta-do-cruzamento-de-dados/ style="text-decoration:none" class="w3-hover-gray w3-small" target="_blank">Em torno de 33 milhões de brasileiros, mais os 14 milhões de beneficiários do programa Bolsa Família, foram selecionados através</a>
+            </div>
+            <footer class="w3-container w3-light-gray ">
+                <a href="https://noticiasconcursos.com.br" class="w3-button w3-block w3-center-align w3-display-bottommiddle w3-small w3-text-theme">https://noticiasconcursos.com.br</a>
+            </footer>
+        </div>
+    </div>
+    
 </div>
 
+
+<!-- Menu -->
 <hr>
-<h2 class="w3-center">Notícias</h2>
+
+<h2 class="w3-center">Segmentos</h2>
 <div class="w3-border">
-<div class="w3-bar w3-theme">
-  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Social')"><i class="fa fa-group"></i> Social</button>
-  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'GovFederal')"><i class="fa fa-university"></i> Gov. Federal</button>
-  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'GovEsferas')"><i class="fa fa-compass"></i> Gov. Esferas</button>
-  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Judiciario')"><i class="fa fa-gavel"></i> Judiciário</button>
-  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Privado')"><i class="fa fa-line-chart"></i> Privado</button>
-  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Concorrencia')"><i class="fa fa-exclamation-triangle"></i> Concorrência</button>
-  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Produtos')"><i class="fa fa-diamond"></i> Produtos</button>
-  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Twitter')"><i class="fa fa-twitter"></i> Twitter</button>
+    <div class="w3-bar w3-theme">
+        
+        <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick= "openCity(event, 'GER' )"><i class="fa fa-globe"></i> Geral</button>
+        
+        <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick= "openCity(event, 'SOC' )"><i class="fa fa-group"></i> Social</button>
+        
+        <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick= "openCity(event, 'FED' )"><i class="fa fa-university"></i> Governo Federal</button>
+        
+        <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick= "openCity(event, 'GOV' )"><i class="fa fa-compass"></i> Governo Esferas</button>
+        
+        <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick= "openCity(event, 'JUD' )"><i class="fa fa-gavel"></i> Judiciário</button>
+        
+        <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick= "openCity(event, 'PRI' )"><i class="fa fa-line-chart"></i> Privado</button>
+        
+    </div>
 </div>
 
-<div id="Social" class="w3-container city w3-animate-opacity w3-row-padding " style="margin:0 -16px">
-  <h2>Social</h2>
-     <div class="w3-row w3-quarter w3-margin-bottom">
-   <div class="w3-card-4 xtest w3-col" >
-      <div class="w3-container w3-padding-16" style="min-height:170px">
-         <a href="http://www.difundir.com.br/site/c_mostra_release.php?emp=4803&num_release=247592"class="w3-hover-gray" target="_blank" style="text-decoration:none">Genetec mostra como a tecnologia para segurança física é essencial para a área de saúde</a>
-      </div>
-      <footer class="w3-container w3-light-gray ">
-         <p class="w3-small">http://www.difundir.com.br</p>
-      </footer>
-   </div>
-</div>
-<div class="w3-row w3-quarter w3-margin-bottom">
-   <div class="w3-card-4 xtest w3-col" >
-      <div class="w3-container w3-padding-16" style="min-height:170px">
-         <a href="https://www.em.com.br/app/noticia/gerais/2021/02/25/interna_gerais,1240806/tecnologia-nacional-ufmg-cria-testes-de-covid-19-mais-baratos-e-rapidos.shtml"class="w3-hover-gray" target="_blank" style="text-decoration:none">Tecnologia nacional: UFMG cria testes de COVID-19 mais baratos e rápidos</a>
-      </div>
-      <footer class="w3-container w3-light-gray ">
-         <p class="w3-small">https://www.em.com.br/</p>
-      </footer>
-   </div>
-</div>
-<div class="w3-row w3-quarter w3-margin-bottom">
-   <div class="w3-card-4 xtest w3-col" >
-      <div class="w3-container w3-padding-16" style="min-height:170px">
-         <a href="https://www.impala.pt/noticias/economia/5g-tecnologia-pode-ser-aplicada-a-tudo-da-saude-a-arte-e-ate-ao-espaco/"class="w3-hover-gray" target="_blank" style="text-decoration:none">5G: Tecnologia pode ser aplicada a tudo: da saúde à arte e até ao Espaço</a>
-      </div>
-      <footer class="w3-container w3-light-gray ">
-         <p class="w3-small">https://www.impala.pt/</p>
-      </footer>
-   </div>
+
+
+
+<div id="GER" class="w3-container city w3-animate-opacity w3-row-padding " style="margin:0 -16px">
+    <h2>Geral</h2>
+    <!-- Notícias -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div>
+        <!-- DOU2 -->
+        
+        <div class="w3-container">
+            <hr>
+            <div class="w3-center">
+                <p class="w3-large">Mudanças de Comando</p>
+            </div>
+            <div class="w3-responsive w3-card-4">
+                <table class="w3-table w3-striped w3-bordered">
+                    <thead>
+                    <tr class="w3-theme">
+                        <th style="width:5%">Órgão</th>
+                        <th style="width:20%">Hierarquia</th>
+                        <th style="width:5%">Ato</th>
+                        <th style="width:20%">Nome</th>
+                        <th style="width:50%">Cargo/Função</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <tr>
+                        <td>PRESIDÊNCIA</td>
+                        <td>Presidência da República/Advocacia-Geral da União</td>
+                        <td>CEDER</td>
+                        <td>LYVANCLEVES BISPO DOS SANTOS</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-agu-n-56-de-25-de-fevereiro-de-2021-305803062" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Chefe da Assessoria Especial de Assuntos Legislativos, código DAS 101.5, no Ministério da Justiça e Segurança Pública.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>PRESIDÊNCIA</td>
+                        <td>Presidência da República/Assessoria Especial do Presidente da República</td>
+                        <td>EXONERAR</td>
+                        <td>KARLA FONSECA LOUREIRO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-3-de-25-de-fevereiro-de-2021-305803782" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Assessor, código DAS 102.4, da Assessoria Especial do Presidente da República.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>PRESIDÊNCIA</td>
+                        <td>Presidência da República/Casa Civil</td>
+                        <td>EXONERAR</td>
+                        <td>GUSTAVO MACHADO PIRES</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-26-de-fevereiro-de-2021-305691788" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Assessor Especial do Ministro de Estado da Saúde, código DAS 102.5.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>PRESIDÊNCIA</td>
+                        <td>Presidência da República/Casa Civil</td>
+                        <td>EXONERAR</td>
+                        <td>JOSÉ CAMILO DE OLIVEIRA NAGANO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-26-de-fevereiro-de-2021-305691788" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor de Infraestrutura de Chaves Públicas do Instituto Nacional de Tecnologia da Informação - ITI, código DAS 101.5, a partir de 28 de fevereiro de 2021.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>PRESIDÊNCIA</td>
+                        <td>Presidência da República/Casa Civil</td>
+                        <td>NOMEAR</td>
+                        <td>MAURICIO AUGUSTO COELHO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-26-de-fevereiro-de-2021-305691788" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor de Infraestrutura de Chaves Públicas do Instituto Nacional de Tecnologia da Informação - ITI, código DAS 101.5, ficando dispensado da função que atualmente ocupa.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>PRESIDÊNCIA</td>
+                        <td>Presidência da República/Casa Civil</td>
+                        <td>EXONERAR</td>
+                        <td>FERNANDO LOURENÇO NUNES NETO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-26-de-fevereiro-de-2021-305691788" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor de Programa da Secretaria de Modernização da Administração Federal da Secretaria Especial de Modernização do Estado da Secretaria-Geral da Presidência da República, código DAS 103.5.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>PRESIDÊNCIA</td>
+                        <td>Presidência da República/Casa Civil</td>
+                        <td>NOMEAR</td>
+                        <td>EVANDRO RAMOS SOARES</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-26-de-fevereiro-de-2021-305691788" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor de Programa da Secretaria de Modernização da Administração Federal da Secretaria Especial de Modernização do Estado da Secretaria-Geral da Presidência da República, código DAS 103.5.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>PRESIDÊNCIA</td>
+                        <td>Presidência da República/Casa Civil</td>
+                        <td>NOMEAR</td>
+                        <td>LORENA FERRER CAVALCANTI RANDAL POMPEU</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-26-de-fevereiro-de-2021-305691788" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Subsecretária de Orçamento e Administração da Secretaria-Executiva do Ministério da Mulher, da Família e dos Direitos Humanos, código DAS 101.5, ficando dispensada da função que atualmente ocupa.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>PRESIDÊNCIA</td>
+                        <td>Presidência da República/Casa Civil</td>
+                        <td>EXONERAR</td>
+                        <td>LUCIANO ANGELO SEFFRIN BRAGAGNOLO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-26-de-fevereiro-de-2021-305691788" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Subsecretário de Orçamento e Administração da Secretaria-Executiva do Ministério da Mulher, da Família e dos Direitos Humanos, código DAS 101.5.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>PRESIDÊNCIA</td>
+                        <td>Presidência da República/Casa Civil</td>
+                        <td>EXONERAR</td>
+                        <td>JOSE CARLOS NADER MOTTA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-26-de-fevereiro-de-2021-305691788" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Subsecretário de Planejamento, Orçamento e Administração da Secretaria-Executiva do Ministério do Meio Ambiente, código DAS 101.5.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>PRESIDÊNCIA</td>
+                        <td>Presidência da República/Casa Civil</td>
+                        <td>NOMEAR</td>
+                        <td>DANILO DUPAS RIBEIRO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-26-de-fevereiro-de-2021-305629650" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Presidente do Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira - INEP, código DAS 101.6, ficando exonerado do cargo que atualmente ocupa.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>PRESIDÊNCIA</td>
+                        <td>Presidência da República/Casa Civil</td>
+                        <td>NOMEAR</td>
+                        <td>PAULO ROBERTO ARAUJO DE ALMEIDA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-26-de-fevereiro-de-2021-305629650" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Secretário de Regulação e Supervisão da Educação Superior do Ministério da Educação, código DAS 101.6, ficando exonerado do cargo que atualmente ocupa.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>PRESIDÊNCIA</td>
+                        <td>Presidência da República/Casa Civil</td>
+                        <td>EXONERAR</td>
+                        <td>FILOMENA MARIA BASTOS GOMES</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-26-de-fevereiro-de-2021-305629650" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Subsecretária da Perícia Médica Federal da Secretaria de Previdência da Secretaria Especial de Previdência e Trabalho do Ministério da Economia, código DAS 101.5.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>PRESIDÊNCIA</td>
+                        <td>Presidência da República/Casa Civil</td>
+                        <td>NOMEAR</td>
+                        <td>EDUARDO DE OLIVEIRA MAGALHAES</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-26-de-fevereiro-de-2021-305629650" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Subsecretário da Perícia Médica Federal da Secretaria de Previdência da Secretaria Especial de Previdência e Trabalho do Ministério da Economia, código DAS 101.5.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>PRESIDÊNCIA</td>
+                        <td>Presidência da República/Secretaria-Geral/Secretaria Executiva</td>
+                        <td>EXONERAR</td>
+                        <td>SINVAL DE SOUZA NETO DUARTE</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-120-de-26-de-fevereiro-de-2021-305708625" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Assessor, código DAS 102.4, da Assessoria Especial de Comunicação Social da Secretaria-Geral da Presidência da República.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>PRESIDÊNCIA</td>
+                        <td>Presidência da República/Secretaria-Geral/Secretaria Executiva</td>
+                        <td>NOMEAR</td>
+                        <td>RAFAEL MONTEIRO DE CARVALHO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-119-de-26-de-fevereiro-de-2021-305802902" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Assessor, código DAS 102.4, na Assessoria Especial de Comunicação Social da Secretaria-Geral da Presidência da República.</a></td>
+                    </tr>
+                    
+                    
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+    <div>
+        <!-- DOU3 -->
+        
+    </div>
+
+    <!-- Twitter -->
+    
+    <div class="w3-center">
+        <hr>
+        <p class="w3-large">Twitter</p>
+    </div>
+    <div id="Twitter" class="w3-container w3-animate-opacity">
+        
+        
+        
+        
+        
+        <button onclick="myAccFunc('secomvc')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">SecomVc (@secomvc)</button>
+ <!--       <div id=secomvc class="w3-hide">
+            <div class="w3-container">
+         -->
+                <a href="https://twitter.com/secomvc/status/1366085437304012807" style="text-decoration:none" class="w3-hover-gray"  target="_blank">A Estratégia de Governo Digital 2020-2022 prevê, até 2022, a digitalização de 100% dos serviços públicos e dos portais federais. A estimativa é de economia de R$ 38 bilhões em cinco anos (2020-2025).
+
+Fonte: Governo Federal</a> <br> <br>
+ <!--       
+            </div>
+        </div>
+          -->
+        
+        
+        
+        
+        
+        
+    </div>
+    
 </div>
 
+
+<div id="SOC" class="w3-container city w3-animate-opacity w3-row-padding " style="margin:0 -16px">
+    <h2>Social</h2>
+    <!-- Notícias -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="w3-row w3-quarter w3-margin-bottom">
+        <div class="w3-card-4 xtest w3-col" >
+            <div class="w3-container w3-padding-16" style="min-height:280px">
+                <b><a href="https://g1.globo.com/sp/campinas-regiao/noticia/2021/02/25/unicamp-lanca-aplicativo-e-site-para-explicar-temas-relacionados-a-saude-para-adolescentes.ghtml" class="w3-hover-gray w3-text-theme bold" target="_blank" style="text-decoration:none">Unicamp lança aplicativo e site para explicar temas relacionados à saúde para adolescentes</a></b><br>
+                <a href="https://g1.globo.com/sp/campinas-regiao/noticia/2021/02/25/unicamp-lanca-aplicativo-e-site-para-explicar-temas-relacionados-a-saude-para-adolescentes.ghtml" class="w3-hover-gray w3-small" target="_blank" style="text-decoration:none"> Projeto foi desenvolvido por professores e alunos e busca abordar de forma simples problemas comuns enfrentados pelos jovens. Iniciativa contou com a participação de alunos e professores para ser desenvolvida Carlos Dias/G1 O grupo de pesquisa Neuroeducation Research Group (N...</a>
+            </div>
+            <footer class="w3-container w3-light-gray ">
+                <a href="https://g1.globo.com/" class="w3-button w3-block w3-center-align w3-small w3-text-theme">https://g1.globo.com/</a>
+            </footer>
+        </div>
+    </div>
+    
+    
+    
+    <div class="w3-row w3-quarter w3-margin-bottom">
+        <div class="w3-card-4 xtest w3-col" >
+            <div class="w3-container w3-padding-16" style="min-height:280px">
+                <b><a href="https://riomaframix.com.br/nacional/inss-amplia-prova-de-vida-por-meio-digital/" class="w3-hover-gray w3-text-theme bold" target="_blank" style="text-decoration:none">INSS amplia prova de vida por meio digital</a></b><br>
+                <a href="https://riomaframix.com.br/nacional/inss-amplia-prova-de-vida-por-meio-digital/" class="w3-hover-gray w3-small" target="_blank" style="text-decoration:none">Serviço exclusivo do aplicativo MeuGov.br usa biometria facial e evita deslocamento até as agências.</a>
+            </div>
+            <footer class="w3-container w3-light-gray ">
+                <a href="https://riomaframix.com.br" class="w3-button w3-block w3-center-align w3-small w3-text-theme">https://riomaframix.com.br</a>
+            </footer>
+        </div>
+    </div>
+    
+    
+    
+    <div class="w3-row w3-quarter w3-margin-bottom">
+        <div class="w3-card-4 xtest w3-col" >
+            <div class="w3-container w3-padding-16" style="min-height:280px">
+                <b><a href="http://www.jornalrol.com.br/seminario-internacional-discutira-educacao-tecnologia-e-legado-de-paulo-freire/" class="w3-hover-gray w3-text-theme bold" target="_blank" style="text-decoration:none">Seminário internacional discutirá educação, tecnologia e legado de Paulo Freire</a></b><br>
+                <a href="http://www.jornalrol.com.br/seminario-internacional-discutira-educacao-tecnologia-e-legado-de-paulo-freire/" class="w3-hover-gray w3-small" target="_blank" style="text-decoration:none"> Edição especial do Seminário Internacional Arte, Palavra e Leitura ocorre entre os dias 16 e 19 de março e reúne nomes como Abdeljalil Akkari, Sérgio Haddad, Inés Dussel e Rosa María Torres O III Seminário Internacional Arte, Palavra e Leitura será promovido virtualmente sob ...</a>
+            </div>
+            <footer class="w3-container w3-light-gray ">
+                <a href="http://www.jornalrol.com.br" class="w3-button w3-block w3-center-align w3-small w3-text-theme">http://www.jornalrol.com.br</a>
+            </footer>
+        </div>
+    </div>
+    
+    
+    
+    <div class="w3-row w3-quarter w3-margin-bottom">
+        <div class="w3-card-4 xtest w3-col" >
+            <div class="w3-container w3-padding-16" style="min-height:280px">
+                <b><a href="https://www.mixvale.com.br/2021/02/25/familias-poderao-receber-o-bolsa-familia-na-conta-digital/" class="w3-hover-gray w3-text-theme bold" target="_blank" style="text-decoration:none">Famílias poderão receber o Bolsa Família na conta digital?</a></b><br>
+                <a href="https://www.mixvale.com.br/2021/02/25/familias-poderao-receber-o-bolsa-familia-na-conta-digital/" class="w3-hover-gray w3-small" target="_blank" style="text-decoration:none"> Famílias poderão receber o Bolsa Família na conta digital? Desde dezembro de 2020 está ocorrendo, de forma gradativa, o cadastramento de mais de 9 milhões de beneficiários do Bolsa Família no sistema bancário. Antes, nenhum deles tinha conta em instituições do sistema finance...</a>
+            </div>
+            <footer class="w3-container w3-light-gray ">
+                <a href="https://www.mixvale.com.br/" class="w3-button w3-block w3-center-align w3-small w3-text-theme">https://www.mixvale.com.br/</a>
+            </footer>
+        </div>
+    </div>
+    
+    
+    
+    <div class="w3-row w3-quarter w3-margin-bottom">
+        <div class="w3-card-4 xtest w3-col" >
+            <div class="w3-container w3-padding-16" style="min-height:280px">
+                <b><a href="https://campos24horas.com.br/portal/receita-federal-divulga-as-regras-sobre-a-entrega-da-declaracao-do-ir-da-pessoa-fisica-2021/" class="w3-hover-gray w3-text-theme bold" target="_blank" style="text-decoration:none">Receita Federal divulga regras sobre entrega da Declaração do IR da Pessoa Física 2021</a></b><br>
+                <a href="https://campos24horas.com.br/portal/receita-federal-divulga-as-regras-sobre-a-entrega-da-declaracao-do-ir-da-pessoa-fisica-2021/" class="w3-hover-gray w3-small" target="_blank" style="text-decoration:none"> A Receita Federal anunciou, na tarde desta quarta-feira (24/2), as regras para a entrega da Declaração do Imposto de Renda da Pessoa Física (DIRPF 2021). O prazo de envio terá início às 8h do dia 1º de março e terminará às 23h59min59s, horário de Brasília, do dia 30 de abril ...</a>
+            </div>
+            <footer class="w3-container w3-light-gray ">
+                <a href="https://campos24horas.com.br/noticias/" class="w3-button w3-block w3-center-align w3-small w3-text-theme">https://campos24horas.com.br/noticias/</a>
+            </footer>
+        </div>
+    </div>
+    
+    
+    
+    <div class="w3-row w3-quarter w3-margin-bottom">
+        <div class="w3-card-4 xtest w3-col" >
+            <div class="w3-container w3-padding-16" style="min-height:280px">
+                <b><a href="https://oglobo.globo.com/rio/governo-do-rio-lanca-plataforma-sobre-oferta-de-agua-reducao-do-risco-de-secas-prevencao-contra-inundacoes-24897846" class="w3-hover-gray w3-text-theme bold" target="_blank" style="text-decoration:none">Governo do Rio lança plataforma sobre oferta de água, redução do risco de secas e prevenção contra inundações</a></b><br>
+                <a href="https://oglobo.globo.com/rio/governo-do-rio-lanca-plataforma-sobre-oferta-de-agua-reducao-do-risco-de-secas-prevencao-contra-inundacoes-24897846" class="w3-hover-gray w3-small" target="_blank" style="text-decoration:none">Proposta surge em meio a mais uma crise hídrica enfrentada no estado, após problemas recentes no Sistema Guandu, da Cedae, e a volta da geosmina</a>
+            </div>
+            <footer class="w3-container w3-light-gray ">
+                <a href="https://oglobo.globo.com/" class="w3-button w3-block w3-center-align w3-small w3-text-theme">https://oglobo.globo.com/</a>
+            </footer>
+        </div>
+    </div>
+    
+    
+    <div>
+        <!-- DOU2 -->
+        
+        <div class="w3-container">
+            <hr>
+            <div class="w3-center">
+                <p class="w3-large">Mudanças de Comando</p>
+            </div>
+            <div class="w3-responsive w3-card-4">
+                <table class="w3-table w3-striped w3-bordered">
+                    <thead>
+                    <tr class="w3-theme">
+                        <th style="width:5%">Órgão</th>
+                        <th style="width:20%">Hierarquia</th>
+                        <th style="width:5%">Ato</th>
+                        <th style="width:20%">Nome</th>
+                        <th style="width:50%">Cargo/Função</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Fundação Universidade Federal de São Carlos</td>
+                        <td>EXONERAR</td>
+                        <td>CELESTE JOSÉ ZANON</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-25-de-fevereiro-de-2021-305715708" style="text-decoration:none" target="_blank" class="w3-hover-gray"></a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Fundação Universidade Federal de São Carlos</td>
+                        <td>NOMEAR</td>
+                        <td>EDNA HERCULES AUGUSTO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-25-de-fevereiro-de-2021-305715708" style="text-decoration:none" target="_blank" class="w3-hover-gray"></a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>EXONERAR</td>
+                        <td>TÁSSIO FRANCISCO LOFTI MATOS</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo de Direção, como titular da Pró-reitoria de Administração e Planejamento (Proap), Código CD-02, para o qual fora nomeado mediante a Portaria nº 260/GR, de 01 de março de 2013 (DOU nº 044 de 06/03/2013, Seção 2, Págs. 21, 22 e 23).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>REUBER SARAIVA DE SANTIAGO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo de Direção, como titular da Pró-reitoria de Administração e Planejamento (Proap), Código CD-02.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>CRISTIANE BORGES BRAGA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo de Direção, como titular da Pró-reitoria de Ensino (Proen), Código CD-02.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>EXONERAR</td>
+                        <td>REUBER SARAIVA DE SANTIAGO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo de Direção, como titular da Pró-reitoria de Ensino, Código CD-02, para o qual fora nomeado mediante a Portaria nº 298/GR/de 12 de março de 2013 (DOU nº 051 de 15/03/13, Seção 2, Pág. 26).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>ANA CLAUDIA UCHOA ARAÚJO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo de Direção, como titular da Pró-reitoria de Extensão (Proext), Código CD-02.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>EXONERAR</td>
+                        <td>ZANDRA MARIA RIBEIRO MENDES DUMARESQ</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo de Direção, como titular da Pró-reitoria de Extensão, Código CD-02, para o qual fora nomeada mediante a Portaria nº 260/GR, de 01 de março de 2013 (DOU nº 044 de 06/03/2013, Seção 2, Págs. 21, 22 e 23).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>EXONERAR</td>
+                        <td>IVAM HOLANDA DE SOUZA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo de Direção, como titular da Pró-reitoria de Gestão de Pessoas (Progep), Código CD-02, para o qual fora nomeado mediante a Portaria nº 260/GR, de 01 de março de 2013 (DOU nº 044 de 06/03/2013, Seção 2, Págs. 21, 22 e 23).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>MARCEL RIBEIRO MENDONÇA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo de Direção, como titular da Pró-reitoria de Gestão de Pessoas (Progep), Código CD-02.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>JOÃO VICENTE MENDES SANTANA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Acaraú, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>EXONERAR</td>
+                        <td>MANOEL PAIVA DE ARAUJO NETO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Acaraú, Código CD-02, para o qual fora nomeado mediante a Portaria nº 162/GABR/REITORIA, de 07 de março de 2018 (DOU nº 047 de 09/03/2018, Seção 2, Pág. 20).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>KELVIO FELIPE DOS SANTOS</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Acopiara, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>MARIO WEDNEY DE LIMA MOREIRA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Aracati, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>LOURIVAL SOARES DE AQUINO FILHO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Baturité, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>JOÃO PAULO ARCELINO DO REGO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Boa Viagem, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>GILSON SOARES CORDEIRO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Camocim, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>JEFFERSON QUEIROZ LIMA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Caucaia, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>ANTONY GLEYDSON LIMA BASTOS</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Cedro, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>EXONERAR</td>
+                        <td>FERNANDO EUGENIO LOPES DE MELO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Cedro, Código CD-02, para o qual fora reconduzido mediante a Portaria nº 168/GR, de 23 de fevereiro de 2017 (DOU nº 040 de 24/02/2017, Seção 2, Pág. 20 e 21).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>ANTONIO MOISES FILHO DE OLIVEIRA MOTA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Horizonte, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>FRANCISCO HEBER DA SILVA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Iguatu, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>EXONERAR</td>
+                        <td>DIJAUMA HONORIO NOGUEIRA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Iguatu, Código CD-02, para o qual fora reconduzido mediante a Portaria nº 168/GR, de 23 de fevereiro de 2017 (DOU nº 040 de 24/02/2017, Seção 2, Pág. 20 e 21).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>FAUSTO FAUSTINO DA SILVA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Itapipoca, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>EXONERAR</td>
+                        <td>FRANCISCO REGIS ABREU GOMES</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Itapipoca, Código CD-02, para o qual fora nomeado mediante a Portaria nº 929/GR, DE 12 DE DEZEMBRO DE 2016 (DOU nº 238 de 13/12/2016, Seção 2, Pág. 20).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>IZAMARO DE ARAUJO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Jaguaribe, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>ALEX JUSSILENO VIANA BEZERRA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Juazeiro do Norte, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>EXONERAR</td>
+                        <td>GUILHERME BRITO DE LACERDA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Juazeiro do Norte, Código CD-02, para o qual fora nomeado mediante a Portaria nº 168/GR, de 23 de fevereiro de 2017 (DOU nº 040 de 24/02/2017, Seção 2, Pág. 20 e 21).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>JOSÉ VALMIR FARIAS MAIA JUNIOR</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Limoeiro do Norte, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>ROBSON DA SILVA SIQUEIRA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Maranguape, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>TOIVI MASIH NETO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Paracuru, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>ALEXANDRE CESAR PRAXEDES RODRIGUES</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Quixadá, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>EXONERAR</td>
+                        <td>FRANCISCO HELDER CALDAS ALBUQUERQUE</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Quixadá, Código CD-02, para o qual fora reconduzido mediante a Portaria nº 168/GR, de 23 de fevereiro de 2017 (DOU nº 040 de 24/02/2017, Seção 2, Pág. 20 e 21).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>WILTON BEZERRA DE FRAGA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Sobral, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>EXONERAR</td>
+                        <td>ELIANO VIEIRA PESSOA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Sobral, Código CD-02, para o qual fora reconduzido mediante a Portaria nº 168/GR, de 23 de fevereiro de 2017 (DOU nº 040 de 24/02/2017, Seção 2, Pág. 20 e 21).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>FRANCISCO SILDEMBERNY SOUZA DOS SANTOS</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Tabuleiro do Norte, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>JOSÉ ALVES DE OLIVEIRA NETO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Tauá, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>JACKSON NUNES E VASCONCELOS</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Tianguá, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>ULISSES COSTA DE VASCONCELOS</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Ubajara, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>EXONERAR</td>
+                        <td>ANDERSON IBSEN LOPES DE SOUZA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretor-geral do campus Umirim, Código CD-02, para o qual fora reconduzido mediante a Portaria nº 315/GR, de 25 de abril de 2018 (DOU nº 080 de 26/04/2018, Seção 2, Pág. 21 e 22).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>EXONERAR</td>
+                        <td>JÂNIA MARIA AUGUSTA DA SILVA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretora-geral do campus Limoeiro do Norte, Código CD-02, para o qual fora nomeada mediante a Portaria nº 168/GR, de 23 de fevereiro de 2017 (DOU nº 040 de 24/02/2017, Seção 2, Pág. 20 e 21).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>ROSSANA BARROS SILVEIRA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretora-geral do campus Maracanaú, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>EXONERAR</td>
+                        <td>JÚLIO CÉSAR DA COSTA SILVA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretora-geral do campus Maracanaú, Código CD-02, para o qual fora reconduzido mediante a Portaria nº 168/GR, de 23 de fevereiro de 2017 (DOU nº 040 de 24/02/2017, Seção 2, Pág. 20 e 21).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>MARIA BEATRIZ CLAUDINO BRANDÃO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretora-geral do campus Morada Nova, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>MARIA MICHELE COLAÇO PINHEIRO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Diretora-geral do campus Umirim, Código CD-02 (quadriênio 2021-2025).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>EXONERAR</td>
+                        <td>MARIA ELIANI HOLANDA COELHO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-177-de-25-de-fevereiro-de-2021-305730884" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de direção, como titular da Diretoria do Centro de Referência Acopiara, Código CD-02, para o qual fora nomeada mediante a Portaria nº 1.081/GR, de 09 de novembro de 2017 (DOU nº 216, de 10/11/2017, Seção 2, Pág. 24).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>EXONERAR</td>
+                        <td>CRISTIANE BORGES BRAGA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-163-de-22-de-fevereiro-de-2021-305703944" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo de Diretora de implantação do Polo de Inovação Fortaleza, Código CD-02, para o qual fora nomeada mediante a Portaria nº 782/GR, de 23 de novembro de 2015 (DOU nº 225, de 25/11/2015, Seção 2, Pág. 22).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>JOELIA MARQUES DE CARVALHO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-163-de-22-de-fevereiro-de-2021-305703944" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo de Direção, como titular da Pró-reitoria de Pesquisa, Pós-Graduação e Inovação (PRPI), Código CD-02.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Ceará</td>
+                        <td>NOMEAR</td>
+                        <td>TARIQUE DA SILVEIRA CAVALCANTE</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-163-de-22-de-fevereiro-de-2021-305703944" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo de Direção, como titular, pro tempore, da Diretoria do Polo de Inovação Fortaleza, Código CD-02.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Universidade Federal de Itajubá</td>
+                        <td>EXONERAR</td>
+                        <td>JOSE ALBERTO FERREIRA FILHO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-377-de-24-de-fevereiro-de-2021-305825879" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Pró-Reitor de Administração pro tempore. Código: CD-2.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Universidade Federal de Itajubá</td>
+                        <td>NOMEAR</td>
+                        <td>RERO MARQUES RUBINGER</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-378-de-24-de-fevereiro-de-2021-305735364" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Pró-Reitor de Administração. Código: CD-2.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <tr>
+                        <td>MS</td>
+                        <td>Ministério da Saúde/Agência Nacional de Vigilância Sanitária</td>
+                        <td>NOMEAR</td>
+                        <td>HELAINE CARNEIRO CAPUCHO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-125-de-26-de-fevereiro-de-2021-305724668" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Gerente, código CGE-IV, da Gerência de Farmacovigilância, da Gerência-Geral de Monitoramento de Produtos Sujeitos à Vigilância Sanitária.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MS</td>
+                        <td>Ministério da Saúde/Agência Nacional de Vigilância Sanitária</td>
+                        <td>NOMEAR</td>
+                        <td>EVISTON BORGES PINTO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-124-de-26-de-fevereiro-de-2021-305839698" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Gerente, código CGE-IV, da Gerência de Desenvolvimento de Sistemas de Informação, da Gerência-Geral da Tecnologia da Informação, ficando exonerado, a pedido, a partir de 1°/03/2021, do referido cargo, o servidor ROBERTO ANTÔNIO DE ALMEIDA FILHO, matrícula SIAPE nº 1793041.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+    <div>
+        <!-- DOU3 -->
+        
+        <div class="w3-container">
+            <hr>
+            <div class="w3-center">
+                <p class="w3-large">Licitações e Contratos</p>
+            </div>
+            <div class="w3-responsive w3-card-4">
+                <table class="w3-table w3-striped w3-bordered">
+                    <thead>
+                    <tr class="w3-theme">
+                        <th style="width:10%">Órgão</th>
+                        <th style="width:20%">Hierarquia</th>
+                        <th style="width:20%">Tipo</th>
+                        <th style="width:50%">Extrato</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <tr>
+                        <td>MEC</td>
+                        <td>Ministério da Educação/Universidade Federal do Espírito Santo/Pró-Reitoria de Gestão de Pessoas</td>
+                        <td>Edital de Processo Seletivo</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/edital-n-33-de-26-de-fevereiro-de-2021-305774592" style="text-decoration:none" target="_blank" class="w3-hover-gray">EDITAL Nº 33 DE 26 DE FEVEREIRO DE 2021 A Pró-Reitora de Gestão de Pessoas da Universidade Federal do Espírito Santo, usando de suas atribuições, torna público que será realizado Processo Seletivo Simplificado para contratação de PROFESSOR SUBSTITUTO para esta Instituição Federal de Ensino, de acordo com a Lei nº 8.745/93 e suas alterações, a Resolução nº 41/2011-CEPE/UFES, a Instrução Normativa C...</a></td>
+                    </tr>
+                    
+                    
+                    
+                    
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Twitter -->
+    
+    <div class="w3-center">
+        <hr>
+        <p class="w3-large">Twitter</p>
+    </div>
+    <div id="Twitter" class="w3-container w3-animate-opacity">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <button onclick="myAccFunc('MEC_Comunicacao')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Ministério da Educação (@MEC_Comunicacao)</button>
+ <!--       <div id=MEC_Comunicacao class="w3-hide">
+            <div class="w3-container">
+         -->
+                <a href="https://twitter.com/Mec_Comunicacao/status/1365408252683563013" style="text-decoration:none" class="w3-hover-gray"  target="_blank">no desenvolvimento de habilidades relacionadas ao uso de tecnologias digitais, empreendedorismo e inovação. Saiba mais no Portal do MEC, o link está na bio.</a> <br> <br>
+ <!--       
+            </div>
+        </div>
+          -->
+        
+        
+    </div>
+    
 </div>
 
-<div id="GovFederal" class="w3-container city w3-animate-opacity w3-row-padding " style="margin:0 -16px">
-  <h2>Gov. Federal</h2>
-  <div class="w3-row w3-quarter w3-margin-bottom">
-   <div class="w3-card-4 xtest w3-col" >
-      <div class="w3-container w3-padding-16" style="min-height:170px">
-         <a href="https://contilnetnoticias.com.br/2021/02/perpetua-almeida-defende-tecnologia-5g-segura-acessivel-e-com-precos-dignos-para-a-populacao/"class="w3-hover-gray" target="_blank" style="text-decoration:none">Perpétua Almeida defende tecnologia 5G segura, acessível e com preços dignos para a população</a>
-      </div>
-      <footer class="w3-container w3-light-gray ">
-         <p class="w3-small">https://contilnetnoticias.com.br</p>
-      </footer>
-   </div>
-</div>
-<div class="w3-row w3-quarter w3-margin-bottom">
-   <div class="w3-card-4 xtest w3-col" >
-      <div class="w3-container w3-padding-16" style="min-height:170px">
-         <a href="https://www.mixvale.com.br/2021/02/25/como-sera-realizada-a-prova-de-vida-por-biometria-no-inss/"class="w3-hover-gray" target="_blank" style="text-decoration:none">Como será realizada a prova de vida por biometria no INSS?</a>
-      </div>
-      <footer class="w3-container w3-light-gray ">
-         <p class="w3-small">https://www.mixvale.com.br/</p>
-      </footer>
-   </div>
-</div>
- 
+
+<div id="FED" class="w3-container city w3-animate-opacity w3-row-padding " style="margin:0 -16px">
+    <h2>Governo Federal</h2>
+    <!-- Notícias -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div>
+        <!-- DOU2 -->
+        
+        <div class="w3-container">
+            <hr>
+            <div class="w3-center">
+                <p class="w3-large">Mudanças de Comando</p>
+            </div>
+            <div class="w3-responsive w3-card-4">
+                <table class="w3-table w3-striped w3-bordered">
+                    <thead>
+                    <tr class="w3-theme">
+                        <th style="width:5%">Órgão</th>
+                        <th style="width:20%">Hierarquia</th>
+                        <th style="width:5%">Ato</th>
+                        <th style="width:20%">Nome</th>
+                        <th style="width:50%">Cargo/Função</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+                    
+                    <tr>
+                        <td>ME</td>
+                        <td>Ministério da Economia/Secretaria Especial de Desestatização, Desinvestimento e Mercados/Secretaria de Coordenação e Governança do Patrimônio da União</td>
+                        <td>NOMEAR</td>
+                        <td>FABIANO JACINTO AMANN</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-1.516-de-10-de-fevereiro-de-2021-305726322" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Assessor, código DAS 102.4, da Secretaria de Coordenação e Governança do Patrimônio da União, da Secretaria Especial de Desestatização, Desinvestimento e Mercados, do Ministério da Economia.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <tr>
+                        <td>MINFRA</td>
+                        <td>Ministério da Infraestrutura/Agência Nacional de Aviação Civil</td>
+                        <td>EXONERAR</td>
+                        <td>RAFAEL GASPARINI MOREIRA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-de-pessoal-n-153-de-23-de-fevereiro-de-2021-305834498" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo em Comissão de Gerente Técnico de Normas Operacionais, código CGE IV, da Gerência de Normas Operacionais e Suporte, da Superintendência de Padrões Operacionais desta Agência, em Brasília (DF).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MJSP</td>
+                        <td>Ministério da Justiça e Segurança Pública/Conselho Administrativo de Defesa Econômica/Diretoria de Administração e Planejamento/Coordenação-Geral de Gestão de Pessoas</td>
+                        <td>EXONERAR</td>
+                        <td>STEPHANIE VENDEMIATTO PENEREIRO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-115-de-24-de-fevereiro-de-2021-305718908" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Chefe da Assessoria do Gabinete 5 do Tribunal Administrativo de Defesa Econômica do Conselho Administrativo de Defesa Econômica, código DAS 101.4.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MJSP</td>
+                        <td>Ministério da Justiça e Segurança Pública/Conselho Administrativo de Defesa Econômica/Diretoria de Administração e Planejamento/Coordenação-Geral de Gestão de Pessoas</td>
+                        <td>NOMEAR</td>
+                        <td>MARCOS FILIPE SUSSUMU UEDA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-116-de-24-de-fevereiro-de-2021-305718988" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Chefe da Assessoria do Gabinete 5 do Tribunal Administrativo de Defesa Econômica do Conselho Administrativo de Defesa Econômica, código DAS 101.4.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MJSP</td>
+                        <td>Ministério da Justiça e Segurança Pública/Secretaria Executiva</td>
+                        <td>EXONERAR</td>
+                        <td>RODRIGO WILSON MELO DE SOUZA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-148-de-26-de-fevereiro-de-2021-305742720" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Coordenador-Geral de Planejamento e Operações da Força Nacional da Diretoria da Força Nacional de Segurança Pública da Secretaria Nacional de Segurança Pública, código DAS 101.4.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <tr>
+                        <td>MME</td>
+                        <td>Ministério de Minas e Energia/Gabinete do Ministro</td>
+                        <td>NOMEAR</td>
+                        <td>FÁBIO DA SILVA VINHADO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-31-de-24-de-fevereiro-de-2021-305743840" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Assessor do Secretário de Petróleo, Gás Natural e Biocombustíveis, código DAS 102.4.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+    <div>
+        <!-- DOU3 -->
+        
+        <div class="w3-container">
+            <hr>
+            <div class="w3-center">
+                <p class="w3-large">Licitações e Contratos</p>
+            </div>
+            <div class="w3-responsive w3-card-4">
+                <table class="w3-table w3-striped w3-bordered">
+                    <thead>
+                    <tr class="w3-theme">
+                        <th style="width:10%">Órgão</th>
+                        <th style="width:20%">Hierarquia</th>
+                        <th style="width:20%">Tipo</th>
+                        <th style="width:50%">Extrato</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+                    
+                    <tr>
+                        <td>MAPA</td>
+                        <td>Ministério da Agricultura, Pecuária e Abastecimento/Companhia Nacional de Abastecimento/Superintendência Regional no Rio Grande do Norte</td>
+                        <td>Extrato de Contrato</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/extrato-de-contrato-305741433" style="text-decoration:none" target="_blank" class="w3-hover-gray">EXTRATO DE CONTRATO Processo nº. 21.216.001.901/2020-15. Contrato Administrativo de adesão nº sn/2021. Contratante: Companhia Nacional de Abastecimento, Conab, CNPJ: 26.461.699/0373-43. Contratada: Serpro. CNPJ: 33.683.111/0001-07. Objeto: Aquisição de tokens e de renovação de assinaturas digitais para a Conab RN, Fundamentação Legal: Art 416 do RLC- Conab. Vigência: 12 (doze) meses, de 26.02.2021...</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>MCTI</td>
+                        <td>Ministério da Ciência, Tecnologia e Inovações/Museu Paraense Emílio Goeldi</td>
+                        <td>Extrato de Contrato</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/extrato-de-contrato-n-4/2021-uasg-240125-mpeg/mcti-305885758" style="text-decoration:none" target="_blank" class="w3-hover-gray">EXTRATO DE CONTRATO Nº 4/2021 - UASG 240125 - MPEG/MCTI Nº Processo: 01205.000463/2019-56. Pregão Nº 13/2020. Contratante: MUSEU PARAENSE EMILIO GOELDI. Contratado: 07.223.271/0001-55 - CONNECTA - CONSULTORIA, COMERCIO E SERVICOS DE INFORMAT. Objeto: Aquisição de solução de rede wireless (wlan), contemplando pontos de acesso wireless e licenciamento para gerência em nuvem, para atender as necessid...</a></td>
+                    </tr>
+                    
+                    
+                    
+                    
+                    
+                    <tr>
+                        <td>ME</td>
+                        <td>Ministério da Economia/Empresa de Tecnologia e Informações da Previdência</td>
+                        <td>Extrato de Rescisão Contratual</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/extrato-de-rescisao-305763697" style="text-decoration:none" target="_blank" class="w3-hover-gray">EXTRATO DE RESCISÃO Processo 44101.000027/2017-96 - Contrato 01.026537.2018, referente ao Pregão Eletrônico 518/2017. Contratada CITY SERVICE SERVICOS TERCEIRIZADOS LTDA-ME - CNPJ 08.219.617/0001-04. Objeto: Serviços de Apoio Administrativo, Auxiliar de Serviços Gerais, Recepção, Jardineiro e Encarregado. Rescisão Unilateral por parte da Dataprev a partir de 27/02/2021. Fundamentação Legal: Artigo...</a></td>
+                    </tr>
+                    
+                    
+                    
+                    
+                    
+                    <tr>
+                        <td>MD</td>
+                        <td>Ministério da Defesa/Comando do Exército/Departamento de Ciência e Tecnologia/Centro de Comunicações e Guerra Eletrônica/Base Administrativa do Comando de Comunicações e Guerra Eletrônica do Exército</td>
+                        <td>Edital</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/edital-de-chamamento-publicoexercicio-guardiao-cibernetico-3.0-egc-3.0-305889692" style="text-decoration:none" target="_blank" class="w3-hover-gray">Edital de Chamamento PúblicoExercício Guardião Cibernético 3.0 (EGC 3.0) A União, por meio do Exército Brasileiro, neste ato representado pelo Comando de Defesa Cibernética - COMDCIBER, com esteio no art. 116 da Lei nº 8.666, de 21 de junho de 1993 e na Lei nº 12.598, de 21 de março de 2012, torna público o presente Edital de Chamamento Público com o intuito de selecionar pessoa(s) jurídica(s) de ...</a></td>
+                    </tr>
+                    
+                    
+                    
+                    
+                    
+                    
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Twitter -->
+    
+    <div class="w3-center">
+        <hr>
+        <p class="w3-large">Twitter</p>
+    </div>
+    <div id="Twitter" class="w3-container w3-animate-opacity">
+        
+        
+        
+        <button onclick="myAccFunc('Minas_Energia')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Ministério de Minas e Energia 🇧🇷 (@Minas_Energia)</button>
+ <!--       <div id=Minas_Energia class="w3-hide">
+            <div class="w3-container">
+         -->
+                <a href="https://twitter.com/Minas_Energia/status/1365436878749655041" style="text-decoration:none" class="w3-hover-gray"  target="_blank">A aprovação da medida pelo Congresso deverá ampliar investimentos em energia renovável e novas tecnologias, em linha com a Modernização do Setor Elétrico e com a transição energética global. 🔌💡
+
+Saiba mais: https://t.co/1akOL3boIr
+
+#MME #Eletrobras #MP #capitalização 🇧🇷</a> <br> <br>
+ <!--       
+            </div>
+        </div>
+          -->
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+    
 </div>
 
-<div id="GovEsferas" class="w3-container city w3-animate-opacity w3-row-padding " style="margin:0 -16px">
-  <h2>Gov. Esferas</h2>
-  <div class="w3-row w3-quarter w3-margin-bottom">
-   <div class="w3-card-4 xtest w3-col" >
-      <div class="w3-container w3-padding-16" style="min-height:170px">
-         <a href="https://www.abcdoabc.com.br/abc/noticia/poupatempo-digital-atinge-marca-4-milhoes-downloads-118503"class="w3-hover-gray" target="_blank" style="text-decoration:none">Poupatempo Digital atinge a marca de 4 milhões de downloads</a>
-      </div>
-      <footer class="w3-container w3-light-gray ">
-         <p class="w3-small">https://www.abcdoabc.com.br</p>
-      </footer>
-   </div>
-</div>
-<div class="w3-row w3-quarter w3-margin-bottom">
-   <div class="w3-card-4 xtest w3-col" >
-      <div class="w3-container w3-padding-16" style="min-height:170px">
-         <a href="https://www.clicnews.info/site-do-governo-do-estado-oferta-mais-de-250-funcionalidades-disponiveis-que-ajudam-o-cidadao-a-resolver-suas-questoes-de-forma-digital/"class="w3-hover-gray" target="_blank" style="text-decoration:none">Site do governo do Estado oferta mais de 250 funcionalidades disponíveis que ajudam o cidadão a resolver suas questões de forma digital</a>
-      </div>
-      <footer class="w3-container w3-light-gray ">
-         <p class="w3-small">https://www.clicnews.info/site-do-governo-do-estado-oferta-mais-de-250-funcionalidades-disponiveis-que-ajudam-o-cidadao-a-resolver-suas-questoes-de-forma-digital/</p>
-      </footer>
-   </div>
-</div>
-<div class="w3-row w3-quarter w3-margin-bottom">
-   <div class="w3-card-4 xtest w3-col" >
-      <div class="w3-container w3-padding-16" style="min-height:170px">
-         <a href="http://cidades.zerouminforma.com.br/universidade-federal-de-mato-grosso-do-sul-estudantes-recebem-propostas-para-desenvolvimento-de-softwares/"class="w3-hover-gray" target="_blank" style="text-decoration:none">Universidade Federal de Mato Grosso do Sul: estudantes recebem propostas para desenvolvimento de softwares</a>
-      </div>
-      <footer class="w3-container w3-light-gray ">
-         <p class="w3-small">http://cidades.zerouminforma.com.br</p>
-      </footer>
-   </div>
+
+<div id="GOV" class="w3-container city w3-animate-opacity w3-row-padding " style="margin:0 -16px">
+    <h2>Governo Esferas</h2>
+    <!-- Notícias -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div>
+        <!-- DOU2 -->
+        
+    </div>
+    <div>
+        <!-- DOU3 -->
+        
+    </div>
+
+    <!-- Twitter -->
+    
 </div>
 
+
+<div id="JUD" class="w3-container city w3-animate-opacity w3-row-padding " style="margin:0 -16px">
+    <h2>Judiciário</h2>
+    <!-- Notícias -->
+    
+    
+    
+    
+    <div class="w3-row w3-quarter w3-margin-bottom">
+        <div class="w3-card-4 xtest w3-col" >
+            <div class="w3-container w3-padding-16" style="min-height:280px">
+                <b><a href="http://onordeste.com.br/portal-integrara-toda-a-rede-de-protecao-e-defesa-da-mulher/" class="w3-hover-gray w3-text-theme bold" target="_blank" style="text-decoration:none">Portal integrará toda a rede de proteção e defesa da mulher</a></b><br>
+                <a href="http://onordeste.com.br/portal-integrara-toda-a-rede-de-protecao-e-defesa-da-mulher/" class="w3-hover-gray w3-small" target="_blank" style="text-decoration:none"> OProjeto de Prevenção da Violência Doméstica e Familiar contra a Mulher (ProMulher), do Ministério da Justiça e Segurança Pública, contará com um reforço ao implementar o Portal Digital da Rede Nacional de Proteção e Defesa da Mulher. O portal será um canal de integração de t...</a>
+            </div>
+            <footer class="w3-container w3-light-gray ">
+                <a href="https://onordeste.com.br/" class="w3-button w3-block w3-center-align w3-small w3-text-theme">https://onordeste.com.br/</a>
+            </footer>
+        </div>
+    </div>
+    
+    
+    
+    <div class="w3-row w3-quarter w3-margin-bottom">
+        <div class="w3-card-4 xtest w3-col" >
+            <div class="w3-container w3-padding-16" style="min-height:280px">
+                <b><a href="http:///plataforma-digital-do-poder-judiciario-pdpj-vai-hospedar-todos-os-sistemas-processuais-publicos-dos-tribunais" class="w3-hover-gray w3-text-theme bold" target="_blank" style="text-decoration:none">Plataforma Digital do Poder Judiciário (PDPJ) vai hospedar todos os sistemas processuais públicos dos tribunais</a></b><br>
+                <a href="http:///plataforma-digital-do-poder-judiciario-pdpj-vai-hospedar-todos-os-sistemas-processuais-publicos-dos-tribunais" class="w3-hover-gray w3-small" target="_blank" style="text-decoration:none">Na apresentação do painel &quot;Plataforma Digital do Poder Judiciário&quot;, no dia inaugural do webinário Justiça 4.0, nessa quarta-feira (24), o conselheiro do CNJ Rubens Canuto falou sobre o cenário de dificuldade enfrentado pela administração judiciá ...</a>
+            </div>
+            <footer class="w3-container w3-light-gray ">
+                <a href="http://" class="w3-button w3-block w3-center-align w3-small w3-text-theme">http://</a>
+            </footer>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div>
+        <!-- DOU2 -->
+        
+        <div class="w3-container">
+            <hr>
+            <div class="w3-center">
+                <p class="w3-large">Mudanças de Comando</p>
+            </div>
+            <div class="w3-responsive w3-card-4">
+                <table class="w3-table w3-striped w3-bordered">
+                    <thead>
+                    <tr class="w3-theme">
+                        <th style="width:5%">Órgão</th>
+                        <th style="width:20%">Hierarquia</th>
+                        <th style="width:5%">Ato</th>
+                        <th style="width:20%">Nome</th>
+                        <th style="width:50%">Cargo/Função</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Superior Tribunal de Justiça</td>
+                        <td>NOMEAR</td>
+                        <td>GERALDO MACHADO NASCIMENTO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-56-de-12-de-fevereiro-de-2021-305729708" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Assessor de Ministro, Cargo CJ-3, no Gabinete do Ministro Marco Aurélio Bellizze, na vaga decorrente da exoneração de Juliana Silva Garcia.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Superior Tribunal de Justiça</td>
+                        <td>NOMEAR</td>
+                        <td>CLÁUDIA CAMARGO PEZ</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-55-de-12-de-fevereiro-de-2021-305846576" style="text-decoration:none" target="_blank" class="w3-hover-gray"></a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Superior Tribunal de Justiça</td>
+                        <td>NOMEAR</td>
+                        <td>LORENNA ARAÚJO LOBATO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-55-de-12-de-fevereiro-de-2021-305846576" style="text-decoration:none" target="_blank" class="w3-hover-gray"></a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional Eleitoral do Amapá</td>
+                        <td>EXONERAR</td>
+                        <td>MARCILIO LIRA DE SOUZA FILHO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-presidencia-n-31-tre-ap/pres/dg/sgp/copes/srfd-de-26-de-fevereiro-de-2021-305851436" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo de Coordenador de Desenvolvimento, nível CJ-2, da Secretaria de Gestão de Pessoas;</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional Eleitoral do Amapá</td>
+                        <td>EXONERAR</td>
+                        <td>FELIPE BENTES FEIO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-presidencia-n-31-tre-ap/pres/dg/sgp/copes/srfd-de-26-de-fevereiro-de-2021-305851436" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em Comissão de Assessor Técnico -Jurídico, nível CJ-1, da Corregedoria Regional Eleitoral;</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional Eleitoral do Amapá</td>
+                        <td>EXONERAR</td>
+                        <td>ALLAN MICHAEL OLIVEIRA BEZERRA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-presidencia-n-31-tre-ap/pres/dg/sgp/copes/srfd-de-26-de-fevereiro-de-2021-305851436" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em Comissão de Assessor Técnico-Jurídico, nível CJ-1, da Corregedoria Regional Eleitoral;</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional Eleitoral do Amapá</td>
+                        <td>EXONERAR</td>
+                        <td>LEONARDO PIOVESANO DA LUZ</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-presidencia-n-31-tre-ap/pres/dg/sgp/copes/srfd-de-26-de-fevereiro-de-2021-305851436" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em Comissão de Coordenador de Soluções Corporativas, nível CJ-2, da Secretaria de Tecnologia da Informação.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional Eleitoral do Amapá</td>
+                        <td>EXONERAR</td>
+                        <td>ELINETE NUNES FREITAS</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-presidencia-n-31-tre-ap/pres/dg/sgp/copes/srfd-de-26-de-fevereiro-de-2021-305851436" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em Comissão de Coordenador de Soluções Corporativas, nível CJ-2, da Secretaria de Tecnologia da Informação.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional Eleitoral do Amapá</td>
+                        <td>NOMEAR</td>
+                        <td>PALOMA ROBERTA BRAGA BARROS MONTEIRO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-presidencia-n-31-tre-ap/pres/dg/sgp/copes/srfd-de-26-de-fevereiro-de-2021-305851436" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Assessor Técnico -Jurídico da Presidência, nível CJ-1;</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional Eleitoral do Amapá</td>
+                        <td>EXONERAR</td>
+                        <td>JOSÉ SEIXAS DE OLIVEIRA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-presidencia-n-31-tre-ap/pres/dg/sgp/copes/srfd-de-26-de-fevereiro-de-2021-305851436" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Assessor Técnico-Jurídico, nível CJ-1, da Presidência;</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional Eleitoral do Amapá</td>
+                        <td>EXONERAR</td>
+                        <td>FRANCISCO ROBERTO CAVALCANTE DANTAS</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-presidencia-n-31-tre-ap/pres/dg/sgp/copes/srfd-de-26-de-fevereiro-de-2021-305851436" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Coordenador de Pessoal, nível CJ-2, da Secretaria de Gestão de Pessoas;</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional Eleitoral do Amapá</td>
+                        <td>NOMEAR</td>
+                        <td>SERGIO NERY BARCELLOS</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-presidencia-n-31-tre-ap/pres/dg/sgp/copes/srfd-de-26-de-fevereiro-de-2021-305851436" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Coordenador de Pessoal, nível CJ-2, da Secretaria de Gestão de Pessoas;</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional Eleitoral do Amapá</td>
+                        <td>EXONERAR</td>
+                        <td>MARIA DE LOURDES PINHEIRO MOTA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-presidencia-n-31-tre-ap/pres/dg/sgp/copes/srfd-de-26-de-fevereiro-de-2021-305851436" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Coordenadora da Corregedoria, nível CJ-2, da Corregedoria Regional Eleitoral;</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional Eleitoral do Amapá</td>
+                        <td>NOMEAR</td>
+                        <td>ALESSANDRA GUSMÃO TRAJANO DE ARAÚJO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-presidencia-n-31-tre-ap/pres/dg/sgp/copes/srfd-de-26-de-fevereiro-de-2021-305851436" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Coordenadora da Corregedoria, nível CJ-2, da Corregedoria Regional Eleitoral;</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional Eleitoral do Amapá</td>
+                        <td>EXONERAR</td>
+                        <td>MARCELLE FERREIRA SOUZA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-presidencia-n-31-tre-ap/pres/dg/sgp/copes/srfd-de-26-de-fevereiro-de-2021-305851436" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Coordenadora de Serviços Gerais, nível CJ-2, da Secretaria de Administração e Orçamento;</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional Eleitoral do Amapá</td>
+                        <td>NOMEAR</td>
+                        <td>CLAURIANA CASTRO OLIVEIRA DA COSTA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-presidencia-n-31-tre-ap/pres/dg/sgp/copes/srfd-de-26-de-fevereiro-de-2021-305851436" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Coordenadora de Serviços Gerais, nível CJ-2, da Secretaria de Administração e Orçamento;</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional Eleitoral do Amapá</td>
+                        <td>NOMEAR</td>
+                        <td>FRANCISCO VALENTIM MAIA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-presidencia-n-31-tre-ap/pres/dg/sgp/copes/srfd-de-26-de-fevereiro-de-2021-305851436" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Diretor- Geral, nível CJ-4;</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional Eleitoral do Amapá</td>
+                        <td>EXONERAR</td>
+                        <td>ELINETE NUNES FREITAS</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-presidencia-n-31-tre-ap/pres/dg/sgp/copes/srfd-de-26-de-fevereiro-de-2021-305851436" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Diretora-Geral, nível CJ-4;</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional Federal da 2ª Região</td>
+                        <td>EXONERAR</td>
+                        <td>ANA BEATRIZ ALENCAR BESOUCHET</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/ato-n-trf2-atp-67-de-25-de-fevereiro-de-2021-305732588" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Diretor de Divisão, CJ-1, da Divisão de Atividades Auxiliares, da estrutura da Secretaria de Infraestrutura e Logística, em virtude do disposto no art. 2º da Resolução nº TRF2-RSP-2021/00007.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional Federal da 2ª Região</td>
+                        <td>EXONERAR</td>
+                        <td>LUCIA HELENA LOUREIRO TIMOTEO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/ato-n-trf2-atp-54-de-18-de-fevereiro-de-2021-305732508" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Chefe de Gabinete, CJ-2, do Gabinete da Juíza Federal Convocada Marcella Araújo da Nova Brandão;</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional Federal da 2ª Região</td>
+                        <td>NOMEAR</td>
+                        <td>LUCIA HELENA LOUREIRO TIMOTEO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/ato-n-trf2-atp-54-de-18-de-fevereiro-de-2021-305732508" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Diretor de Secretaria, CJ-3, da 28ª Vara Federal - SJRJ, em vaga decorrente da exoneração de Guilherme Cotecchia Porto.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional Federal da 2ª Região</td>
+                        <td>EXONERAR</td>
+                        <td>GUILHERME COTECCHIA PORTO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/ato-n-trf2-atp-54-de-18-de-fevereiro-de-2021-305732508" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Diretor de Secretaria, CJ-3, da 28ª Vara Federal - SJRJ;</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional do Trabalho da 15ª Região</td>
+                        <td>NOMEAR</td>
+                        <td>GUSTAVO FACHIM</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/ato-cpv-n-7-de-8-de-fevereiro-de-2021-305761678" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Assessor CJ-02, do mesmo Quadro, em vaga decorrente da exoneração de Paula Toniatti.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional do Trabalho da 15ª Região</td>
+                        <td>NOMEAR</td>
+                        <td>JULIO CESAR VASCONCELLOS DE SOUZA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/ato-cpv-n-7-de-8-de-fevereiro-de-2021-305761678" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Chefe de Divisão CJ-01, do mesmo Quadro, em vaga decorrente da exoneração de Daiane Carla Santos Ledo Marques.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional do Trabalho da 15ª Região</td>
+                        <td>NOMEAR</td>
+                        <td>LUIZ ANTONIO SOARES DO NASCIMENTO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/ato-cpv-n-7-de-8-de-fevereiro-de-2021-305761678" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Chefe de Divisão CJ-01, do mesmo Quadro, em vaga decorrente da exoneração de Juliana Covolo de Souza.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional do Trabalho da 15ª Região</td>
+                        <td>NOMEAR</td>
+                        <td>LUIZ FERNANDO DE MENDONÇA PINHEIRO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/ato-cpv-n-7-de-8-de-fevereiro-de-2021-305761678" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Chefe de Divisão CJ-01, do mesmo Quadro, em vaga decorrente da exoneração de Simone Mayumi Minaki.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional do Trabalho da 15ª Região</td>
+                        <td>NOMEAR</td>
+                        <td>PAULA TONIATTI</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/ato-cpv-n-7-de-8-de-fevereiro-de-2021-305761678" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Diretor de Secretaria CJ-03, do mesmo Quadro, em vaga decorrente da exoneração de Gustavo Fachim.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional do Trabalho da 15ª Região</td>
+                        <td>NOMEAR</td>
+                        <td>MARIA EDNA PEREIRA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/ato-cpv-n-7-de-8-de-fevereiro-de-2021-305761678" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Diretor de Secretaria de Vara do Trabalho CJ-03, do mesmo Quadro, em vaga decorrente da exoneração de Sandra Regina Pagnan.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional do Trabalho da 15ª Região</td>
+                        <td>NOMEAR</td>
+                        <td>RENATA CHAIB BELTRAMELLI</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/ato-cpv-n-7-de-8-de-fevereiro-de-2021-305761678" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Diretor de Serviço CJ-02, do mesmo Quadro, em vaga decorrente da exoneração de Carolina Magalhães Serne Carnevalli.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional do Trabalho da 15ª Região</td>
+                        <td>NOMEAR</td>
+                        <td>CAROLINA MAGALHÃES SERNE CARNEVALLI</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/ato-cpv-n-7-de-8-de-fevereiro-de-2021-305761678" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Diretor de Serviço CJ-02, do mesmo Quadro, em vaga decorrente da exoneração de João Augusto Germer Britto.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional do Trabalho da 15ª Região/Diretoria-Geral</td>
+                        <td>EXONERAR</td>
+                        <td>PAULA TONIATTI</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/ato-cpv-n-6-de-8-de-fevereiro-de-2021-305761758" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Assessor CJ-02, do mesmo Quadro.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional do Trabalho da 15ª Região/Diretoria-Geral</td>
+                        <td>EXONERAR</td>
+                        <td>DAIANE CARLA SANTOS LEDO MARQUES</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/ato-cpv-n-6-de-8-de-fevereiro-de-2021-305761758" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Chefe de Divisão CJ-01, do mesmo Quadro.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional do Trabalho da 15ª Região/Diretoria-Geral</td>
+                        <td>EXONERAR</td>
+                        <td>JULIANA COVOLO DE SOUZA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/ato-cpv-n-6-de-8-de-fevereiro-de-2021-305761758" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Chefe de Divisão CJ-01, do mesmo Quadro.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional do Trabalho da 15ª Região/Diretoria-Geral</td>
+                        <td>EXONERAR</td>
+                        <td>SIMONE MAYUMI MINAKI</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/ato-cpv-n-6-de-8-de-fevereiro-de-2021-305761758" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Chefe de Divisão CJ-01, do mesmo Quadro.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional do Trabalho da 15ª Região/Diretoria-Geral</td>
+                        <td>EXONERAR</td>
+                        <td>GUSTAVO FACHIM</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/ato-cpv-n-6-de-8-de-fevereiro-de-2021-305761758" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Diretor de Secretaria CJ-03, do mesmo Quadro.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional do Trabalho da 15ª Região/Diretoria-Geral</td>
+                        <td>EXONERAR</td>
+                        <td>SANDRA REGINA PAGNAN</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/ato-cpv-n-6-de-8-de-fevereiro-de-2021-305761758" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Diretor de Secretaria de Vara do Trabalho CJ-03, do mesmo Quadro.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional do Trabalho da 15ª Região/Diretoria-Geral</td>
+                        <td>EXONERAR</td>
+                        <td>JOÃO AUGUSTO GERMER BRITTO</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/ato-cpv-n-6-de-8-de-fevereiro-de-2021-305761758" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Diretor de Serviço CJ-02, do mesmo Quadro.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional do Trabalho da 15ª Região/Diretoria-Geral</td>
+                        <td>EXONERAR</td>
+                        <td>CAROLINA MAGALHÃES SERNE CARNEVALLI</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/ato-cpv-n-6-de-8-de-fevereiro-de-2021-305761758" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de Diretor de Serviço CJ-02, do mesmo Quadro.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional do Trabalho da 17ª Região</td>
+                        <td>EXONERAR</td>
+                        <td>DIRETOR DE SECRETARIA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-24-de-fevereiro-de-2021-305761920" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de DIRETOR DE SECRETARIA - CJ-3 do (a) 13ª Vara do Trabalho de Vitória.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional do Trabalho da 17ª Região</td>
+                        <td>EXONERAR</td>
+                        <td>DIRETOR DE SECRETARIA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-24-de-fevereiro-de-2021-305761920" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de DIRETOR DE SECRETARIA - CJ-3 do (a) 1ª Vara do Trabalho de Guarapari.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional do Trabalho da 17ª Região</td>
+                        <td>EXONERAR</td>
+                        <td>DIRETOR DE SECRETARIA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-24-de-fevereiro-de-2021-305761920" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de DIRETOR DE SECRETARIA - CJ-3 do (a) 3ª Vara do Trabalho de Vitória.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional do Trabalho da 17ª Região</td>
+                        <td>EXONERAR</td>
+                        <td>DIRETOR DE SECRETARIA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-24-de-fevereiro-de-2021-305761920" style="text-decoration:none" target="_blank" class="w3-hover-gray">cargo em comissão de DIRETOR DE SECRETARIA - CJ-3 do (a) Vara do Trabalho de Linhares.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional do Trabalho da 21ª Região</td>
+                        <td>EXONERAR</td>
+                        <td>CIRO JOSÉ PEIXOTO PEDROZA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/ato-n-83-de-26-de-fevereiro-de-2021-305762000" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo em Comissão de Diretor da Divisão de Comunicação Social (CJ-01), com efeitos a contar de 01/03/2021.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal Regional do Trabalho da 21ª Região</td>
+                        <td>NOMEAR</td>
+                        <td>ISABELLE BANDEIRA DE FIGUERÊDO SOUZA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/ato-n-84-de-26-de-fevereiro-de-2021-305882262" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo em Comissão de Diretor da Divisão de Comunicação Social (CJ-01), com efeitos a contar de 01/03/2021.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal de Justiça do Distrito Federal e dos Territórios</td>
+                        <td>NOMEAR</td>
+                        <td>EDUARDO FAGNER DA SILVA DE OLIVEIRA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-gpr-n-325-de-26-de-fevereiro-de-2021-305733148" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo em Comissão, CJ-03, de Assessor do Gabinete do Exmo. Sr. Juiz de Direito da Primeira Turma Recursal, Dr. Fabrício Fontoura Bezerra, ficando dispensado da Função Comissionada, FC-05, de Oficial de Gabinete, do Gabinete do Excelentíssimo Senhor Juiz de Direito da Primeira Turma Recursal, Dr. Fabrício Fontoura Bezerra.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal de Justiça do Distrito Federal e dos Territórios</td>
+                        <td>NOMEAR</td>
+                        <td>ALESSANDRA RAPÔSO DE VASCONCELOS MAIA LEITE</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-gpr-n-325-de-26-de-fevereiro-de-2021-305733148" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo em Comissão, CJ-03, de Assessor do Gabinete do Exmo. Sr. Juiz de Direito da Primeira Turma Recursal, Dr. Fabrício Fontoura Bezerra, nos seus impedimentos legais e eventuais.</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal de Justiça do Distrito Federal e dos Territórios</td>
+                        <td>NOMEAR</td>
+                        <td>GUSTAVO SANTOS DE FARIA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-gpr-n-322-de-25-de-fevereiro-de-2021-305733308" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo em Comissão, CJ-03, de Assessor 1º Juizado Especial Cível da Circunscrição Judiciária de Brasília (sequencial 1979).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal de Justiça do Distrito Federal e dos Territórios</td>
+                        <td>EXONERAR</td>
+                        <td>GUSTAVO SANTOS DE FARIA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-gpr-n-322-de-25-de-fevereiro-de-2021-305733308" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo em Comissão, CJ-03, de Assessor do 7º Juizado Especial Cível da Circunscrição Judiciária de Brasília (sequencial 1979).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal de Justiça do Distrito Federal e dos Territórios</td>
+                        <td>NOMEAR</td>
+                        <td>MAGGIE CRISTINA PARREIRAS LEMOS</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-gpr-n-322-de-25-de-fevereiro-de-2021-305733308" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo em Comissão, CJ-03, de Coordenador do Cartório Judicial Único - 1º ao 6º Juizado Especial Cível da Circunscrição Judiciária de Brasília (sequencial 5755).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal de Justiça do Distrito Federal e dos Territórios</td>
+                        <td>EXONERAR</td>
+                        <td>MAGGIE CRISTINA PARREIRAS LEMOS</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-gpr-n-322-de-25-de-fevereiro-de-2021-305733308" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo em Comissão, CJ-03, de Coordenador do Cartório Judicial Único - 2º ao 7º Juizado Especial Cível da Circunscrição Judiciária de Brasília (sequencial 5755).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal de Justiça do Distrito Federal e dos Territórios</td>
+                        <td>NOMEAR</td>
+                        <td>LUCIANA DE PAULA LUCENA DA MOTA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-gpr-n-322-de-25-de-fevereiro-de-2021-305733308" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo em Comissão, CJ-03, de Diretor de Secretaria da 1ª Vara de Execução Fiscal do Distrito Federal (sequencial 2651).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal de Justiça do Distrito Federal e dos Territórios</td>
+                        <td>NOMEAR</td>
+                        <td>GLENDA DE ARRUDA PARANAGUA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-gpr-n-322-de-25-de-fevereiro-de-2021-305733308" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo em Comissão, CJ-03, de Diretor de Secretaria da 2ª Vara de Execução Fiscal do Distrito Federal (sequencial 1981).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal de Justiça do Distrito Federal e dos Territórios</td>
+                        <td>EXONERAR</td>
+                        <td>GLENDA DE ARRUDA PARANAGUA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-gpr-n-322-de-25-de-fevereiro-de-2021-305733308" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo em Comissão, CJ-03, de Diretor de Secretaria da Vara Criminal e do Tribunal do Júri da Circunscrição Judiciária do Guará (sequencial 332).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal de Justiça do Distrito Federal e dos Territórios</td>
+                        <td>EXONERAR</td>
+                        <td>LUCIANA DE PAULA LUCENA DA MOTA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-gpr-n-322-de-25-de-fevereiro-de-2021-305733308" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo em Comissão, CJ-03, de Diretor de Secretaria da Vara de Execução Fiscal do Distrito Federal (sequencial 2651).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Tribunal de Justiça do Distrito Federal e dos Territórios</td>
+                        <td>EXONERAR</td>
+                        <td>RUBENICE MARIA SILVA COSTA</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/portaria-gpr-n-322-de-25-de-fevereiro-de-2021-305733308" style="text-decoration:none" target="_blank" class="w3-hover-gray">Cargo em Comissão, CJ-03, de Diretor de Secretaria do 1º Juizado Especial Cível da Circunscrição Judiciária de Brasília - Itinerante (sequencial 1981).</a></td>
+                    </tr>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+    <div>
+        <!-- DOU3 -->
+        
+        <div class="w3-container">
+            <hr>
+            <div class="w3-center">
+                <p class="w3-large">Licitações e Contratos</p>
+            </div>
+            <div class="w3-responsive w3-card-4">
+                <table class="w3-table w3-striped w3-bordered">
+                    <thead>
+                    <tr class="w3-theme">
+                        <th style="width:10%">Órgão</th>
+                        <th style="width:20%">Hierarquia</th>
+                        <th style="width:20%">Tipo</th>
+                        <th style="width:50%">Extrato</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <tr>
+                        <td>JUDICIÁRIO</td>
+                        <td>Poder Judiciário/Justiça Federal/5ª Região/Seção Judiciária no Rio Grande do Norte/Diretoria do Foro</td>
+                        <td>Extrato de Contrato</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/extrato-de-contrato-305871174" style="text-decoration:none" target="_blank" class="w3-hover-gray">EXTRATO DE CONTRATO CONTRATO Nº 08/2021-JF/RN. OBJETO: aquisição de Migração do e-mail de Zimbra para Exchange, por conta migrada. Marca Microsoft. CONTRATADA: JM PJ CONSTRUTORA E TELECOMUNICAÇÕES EIRELI, CNPJ nº 11.454.795/0001-24. PA 0000348-47.2021.4.05.7100. Pregão Eletrônico 29/2020-JFPE e da Lei nº 8.666/93. PTRES: 168364. ED 339040-19. NE: 2021NE000102. V. TOTAL: R$ 42.400,00. VIGÊNCIA: 01/...</a></td>
+                    </tr>
+                    
+                    
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Twitter -->
+    
+    <div class="w3-center">
+        <hr>
+        <p class="w3-large">Twitter</p>
+    </div>
+    <div id="Twitter" class="w3-container w3-animate-opacity">
+        
+        
+        
+        
+        
+        
+        
+        <button onclick="myAccFunc('TSEjusbr')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">TSE (@TSEjusbr)</button>
+ <!--       <div id=TSEjusbr class="w3-hide">
+            <div class="w3-container">
+         -->
+                <a href="https://twitter.com/TSEjusbr/status/1366038360956022784" style="text-decoration:none" class="w3-hover-gray"  target="_blank">#Dados 📶 @TSEjusbr adota Business Intelligence para gerenciar dados e aprimorar gestão. A ferramenta desenvolvida pelo @TREGoias está conquistando a #JustiçaEleitoral. Saiba mais: https://t.co/KAmMJLzqV4 ◀️ https://t.co/oP5clohogd</a> <br> <br>
+ <!--       
+            </div>
+        </div>
+          -->
+        
+        
+        
+        
+    </div>
+    
 </div>
 
-<div id="Judiciario" class="w3-container city w3-animate-opacity w3-row-padding " style="margin:0 -16px">
-  <h2>Judiciário</h2>
-  <div class="w3-row w3-quarter w3-margin-bottom">
-   <div class="w3-card-4 xtest w3-col" >
-      <div class="w3-container w3-padding-16" style="min-height:170px">
-         <a href="http:///plataforma-digital-do-poder-judiciario-pdpj-vai-hospedar-todos-os-sistemas-processuais-publicos-dos-tribunais"class="w3-hover-gray" target="_blank" style="text-decoration:none">Plataforma Digital do Poder Judiciário (PDPJ) vai hospedar todos os sistemas processuais públicos dos tribunais</a>
-      </div>
-      <footer class="w3-container w3-light-gray ">
-         <p class="w3-small">http://</p>
-      </footer>
-   </div>
+
+<div id="PRI" class="w3-container city w3-animate-opacity w3-row-padding " style="margin:0 -16px">
+    <h2>Privado</h2>
+    <!-- Notícias -->
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="w3-row w3-quarter w3-margin-bottom">
+        <div class="w3-card-4 xtest w3-col" >
+            <div class="w3-container w3-padding-16" style="min-height:280px">
+                <b><a href="https://paranashop.com.br/2021/02/clientes-da-caixa-poderao-acessar-servicos-digitais-do-governo-federal-com-a-senha-do-banco/" class="w3-hover-gray w3-text-theme bold" target="_blank" style="text-decoration:none">Clientes da Caixa poderão acessar serviços digitais do governo federal com a senha do banco</a></b><br>
+                <a href="https://paranashop.com.br/2021/02/clientes-da-caixa-poderao-acessar-servicos-digitais-do-governo-federal-com-a-senha-do-banco/" class="w3-hover-gray w3-small" target="_blank" style="text-decoration:none"> A plataforma é segura e respeita a privacidade e a proteção dos dados do cidadão Os clientes da CAIXA já podem acessar os serviços digitais dos Governos Federal, Estaduais e Municipais utilizando seus dados bancários. O acesso se dá pelo portal gov.br, que reúne informações d...</a>
+            </div>
+            <footer class="w3-container w3-light-gray ">
+                <a href="https://paranashop.com.br/" class="w3-button w3-block w3-center-align w3-small w3-text-theme">https://paranashop.com.br/</a>
+            </footer>
+        </div>
+    </div>
+    
+    
+    
+    <div class="w3-row w3-quarter w3-margin-bottom">
+        <div class="w3-card-4 xtest w3-col" >
+            <div class="w3-container w3-padding-16" style="min-height:280px">
+                <b><a href="https://oglobo.globo.com/economia/anatel-decide-hoje-se-5g-no-brasil-tera-tecnologia-de-ponta-ou-nao-tema-divide-operadoras-entenda-24898126" class="w3-hover-gray w3-text-theme bold" target="_blank" style="text-decoration:none">Anatel decide hoje se 5G no Brasil terá tecnologia de ponta ou não. Tema divide operadoras; entenda.</a></b><br>
+                <a href="https://oglobo.globo.com/economia/anatel-decide-hoje-se-5g-no-brasil-tera-tecnologia-de-ponta-ou-nao-tema-divide-operadoras-entenda-24898126" class="w3-hover-gray w3-small" target="_blank" style="text-decoration:none"> BRASÍLIA — A exigência da adoção de uma tecnologia específica, considerada a mais avançada disponível no mercado, para o início do 5G no Brasil dividiu as operadoras de telefonia. Proposta de edital do leilão apresentado na Agência Nacional de Telecomunicações (Anatel) prevê ...</a>
+            </div>
+            <footer class="w3-container w3-light-gray ">
+                <a href="https://oglobo.globo.com/" class="w3-button w3-block w3-center-align w3-small w3-text-theme">https://oglobo.globo.com/</a>
+            </footer>
+        </div>
+    </div>
+    
+    
+    
+    <div class="w3-row w3-quarter w3-margin-bottom">
+        <div class="w3-card-4 xtest w3-col" >
+            <div class="w3-container w3-padding-16" style="min-height:280px">
+                <b><a href="https://www.conesulnoticias.com.br/2021/02/25/professores-de-fisica-desenvolvem-equipamento-didatico-que-simula-o-efeito-estufa-e-o-aquecimento-global/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=professores-de-fisica-desenvolvem-equipamento-didatico-que-simula-o-efeito-estufa-e-o-aquecimento-global" class="w3-hover-gray w3-text-theme bold" target="_blank" style="text-decoration:none">Professores de Física desenvolvem equipamento didático que simula o Efeito Estufa e o Aquecimento Global</a></b><br>
+                <a href="https://www.conesulnoticias.com.br/2021/02/25/professores-de-fisica-desenvolvem-equipamento-didatico-que-simula-o-efeito-estufa-e-o-aquecimento-global/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=professores-de-fisica-desenvolvem-equipamento-didatico-que-simula-o-efeito-estufa-e-o-aquecimento-global" class="w3-hover-gray w3-small" target="_blank" style="text-decoration:none"> Pesquisadores desenvolveram no Instituto Federal de Educação, Ciência e Tecnologia de Rondônia (IFRO), Campus Porto Velho Calama, um equipamento capaz de simular o efeito estufa. O protótipo trata-se de uma ferramenta didática para o ensino da Física e dos fenômenos relaciona...</a>
+            </div>
+            <footer class="w3-container w3-light-gray ">
+                <a href="https://www.conesulnoticias.com.br/" class="w3-button w3-block w3-center-align w3-small w3-text-theme">https://www.conesulnoticias.com.br/</a>
+            </footer>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div>
+        <!-- DOU2 -->
+        
+    </div>
+    <div>
+        <!-- DOU3 -->
+        
+        <div class="w3-container">
+            <hr>
+            <div class="w3-center">
+                <p class="w3-large">Licitações e Contratos</p>
+            </div>
+            <div class="w3-responsive w3-card-4">
+                <table class="w3-table w3-striped w3-bordered">
+                    <thead>
+                    <tr class="w3-theme">
+                        <th style="width:10%">Órgão</th>
+                        <th style="width:20%">Hierarquia</th>
+                        <th style="width:20%">Tipo</th>
+                        <th style="width:50%">Extrato</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <tr>
+                        <td>CONSELHOS PROFISSIONAIS</td>
+                        <td>Entidades de Fiscalização do Exercício das Profissões Liberais/Conselho Regional de Medicina do Estado do Rio Grande do Sul</td>
+                        <td>Extrato de Termo Aditivo</td>
+                        <td><a href="https://www.in.gov.br/web/dou/-/extrato-de-termo-aditivo-305806150" style="text-decoration:none" target="_blank" class="w3-hover-gray">EXTRATO DE TERMO ADITIVO 3º Termo Aditivo: Processo DL 20/2018. Contratada: MARIA DO CARMO MARTINEZ PÉREZ -ME. Objeto: Assinatura serviço de lavanderia sob demanda. Data da assinatura: 26/02/2021. Vigência: 01/03/2021 a 28/02/2022. Aditamento Excepcional: Processo PR 08/2015. Contratada: SN SERVIÇOS DE LIMPEZA E ZELADORIA PREDIAL LTDA. Objeto: Serviços continuados de copa e limpeza. Data da assina...</a></td>
+                    </tr>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Twitter -->
+    
 </div>
 
-</div>
 
-<div id="Privado" class="w3-container city w3-animate-opacity w3-row-padding " style="margin:0 -16px">
-  <h2>Privado</h2>
-  <div class="w3-row w3-quarter w3-margin-bottom">
-   <div class="w3-card-4 xtest w3-col" >
-      <div class="w3-container w3-padding-16" style="min-height:170px">
-         <a href="https://cryptoid.com.br/identidade-digital-destaques/certificado-digital-garante-seguranca-dos-documentos-digitais-enviados-para-anvisa/"class="w3-hover-gray" target="_blank" style="text-decoration:none">Certificado Digital garante segurança dos documentos digitais enviados para ANVISA | CRYPTOID</a>
-      </div>
-      <footer class="w3-container w3-light-gray ">
-         <p class="w3-small">https://cryptoid.com.br/</p>
-      </footer>
-   </div>
-</div>
-<div class="w3-row w3-quarter w3-margin-bottom">
-   <div class="w3-card-4 xtest w3-col" >
-      <div class="w3-container w3-padding-16" style="min-height:170px">
-         <a href="https://oglobo.globo.com/economia/anatel-decide-hoje-se-5g-no-brasil-tera-tecnologia-de-ponta-ou-nao-tema-divide-operadoras-entenda-24898126"class="w3-hover-gray" target="_blank" style="text-decoration:none">Anatel decide hoje se 5G no Brasil terá tecnologia de ponta ou não. Tema divide operadoras; entenda.</a>
-      </div>
-      <footer class="w3-container w3-light-gray ">
-         <p class="w3-small">https://oglobo.globo.com/</p>
-      </footer>
-   </div>
-</div>
-<div class="w3-row w3-quarter w3-margin-bottom">
-   <div class="w3-card-4 xtest w3-col" >
-      <div class="w3-container w3-padding-16" style="min-height:170px">
-         <a href="https://inforchannel.com.br/linkapi-e-semantix-evento-online-revela-como-aplicar-as-tecnologias-disruptivas/"class="w3-hover-gray" target="_blank" style="text-decoration:none">LinkApi e Semantix: evento online revela como aplicar as tecnologias disruptivas</a>
-      </div>
-      <footer class="w3-container w3-light-gray ">
-         <p class="w3-small">https://inforchannel.com.br/</p>
-      </footer>
-   </div>
-</div>
- 
-</div>
 
-<div id="Concorrencia" class="w3-container city w3-animate-opacity w3-row-padding " style="margin:0 -16px">
-  <h2>Concorrência</h2>
-  <p class="w3-small">Ops. Nada aqui.</p>
-</div>
-
-<div id="Produtos" class="w3-container city w3-animate-opacity w3-row-padding " style="margin:0 -16px">
-  <h2>Produtos</h2>
-  <div class="w3-row w3-quarter w3-margin-bottom">
-   <div class="w3-card-4 xtest w3-col" >
-      <div class="w3-container w3-padding-16" style="min-height:170px">
-         <a href="https://fdr.com.br/2021/02/25/bolsa-familia-pode-receber-novo-valor-e-formas-de-pagamento-neste-mes/"class="w3-hover-gray" target="_blank" style="text-decoration:none">Bolsa Família pode receber novo valor e formas de pagamento neste mês</a>
-      </div>
-      <footer class="w3-container w3-light-gray ">
-         <p class="w3-small">https://fdr.com.br/</p>
-      </footer>
-   </div>
-</div>
-<div class="w3-row w3-quarter w3-margin-bottom">
-   <div class="w3-card-4 xtest w3-col" >
-      <div class="w3-container w3-padding-16" style="min-height:170px">
-         <a href="https://www.mixvale.com.br/2021/02/25/familias-poderao-receber-o-bolsa-familia-na-conta-digital/"class="w3-hover-gray" target="_blank" style="text-decoration:none">Famílias poderão receber o Bolsa Família na conta digital?</a>
-      </div>
-      <footer class="w3-container w3-light-gray ">
-         <p class="w3-small">https://www.mixvale.com.br/</p>
-      </footer>
-   </div>
-</div>
-
-</div>
-
-<div id="Twitter" class="w3-container city w3-animate-opacity">
-  <h2>Twitter</h2>
-  <button onclick="myAccFunc('ComuNICbr')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">NIC.br</button>
-   <div id=ComuNICbr class="w3-hide">
-      <div class="w3-container">
-      <a href="https://twitter.com/ComuNICbr/status/1364944488897130496" class="w3-hover-gray"  target="_blank">Programa Por Uma Internet Mais Segura apoia a comunidade técnica da Internet na redução de ataques originados nas redes do Brasil, na redução do sequestro de prefixos, e contribui para a criação de uma cultura de segurança no País. Conheça os detalhes em: https://t.co/VoCsQQ7QQg https://t.co/OJoc3muwp6</a> <br> <br>
-      </div>
-   </div>
-<button onclick="myAccFunc('SenadoFederal')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Senado Federal</button>
-   <div id=SenadoFederal class="w3-hide">
-      <div class="w3-container">
-      <a href="https://twitter.com/SenadoFederal/status/1365071531634790404" class="w3-hover-gray"  target="_blank">Senado aprova o PL 317/21, conhecido como Governo Digital, que estabelece regras e instrumentos para a prestação digital de serviços públicos, que deverão estar acessíveis também para celular. O objetivo é aumentar a eficiência da administração pública.  https://t.co/kam7AScOlJ. https://t.co/GFSKonhh0l</a> <br> <br>
-      </div>
-   </div>
-<button onclick="myAccFunc('SERPRO')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Serpro</button>
-   <div id=SERPRO class="w3-hide">
-      <div class="w3-container">
-      <a href="https://twitter.com/SERPRO/status/1365051527828750341" class="w3-hover-gray"  target="_blank">🇧🇷🔗🇲🇿 Conexão Brasil - Moçambique | Acordo de Cooperação Técnica firmado entre #Serpro e Centro de Desenvolvimento de Sistemas de Informação de Finanças #Cedsif amplia participação da empresa no mercado internacional. https://t.co/b7XeJpLxTE</a> <br> <br>
-      </div>
-   </div>
-
-</div>
-</div>
-
-<div class="w3-container">
-  <hr>
-  <div class="w3-center">
-    <h2>Mudanças de Comando</h2>
-    <p w3-class="w3-large">Nomeações</p>
-  </div>
-<div class="w3-responsive w3-card-4">
-<table class="w3-table w3-striped w3-bordered">
-<thead>
-<tr class="w3-theme">
-  <th style="width:5%">Órgão</th>
-  <th style="width:20%">Hierarquia</th>
-  <th style="width:25%">Nome</th>
-  <th style="width:50%">Função</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-   <td>MEC</td>
-   <td>Ministério da Educação/Gabinete do Ministro</td>
-   <td>SAMANTHA CRISTINA PASCHOAL</td>
-   <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-116-de-25-de-fevereiro-de-2021-305429670" target="_blank" class="w3-hover-gray">cargo de Coordenadora-Geral, código DAS 101.4, da Coordenação-Geral de Gestão de Informação da Regulação da Educação Superior da Diretoria de Política Regulatória da Secretaria de Regulação e Supervisão da Educação Superior deste Ministério.</a></td>
-</tr>
-<tr>
-   <td>MS</td>
-   <td>Ministério da Saúde/Gabinete do Ministro</td>
-   <td>ROBERTO ROCHA DE ARAÚJO</td>
-   <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-216-de-24-de-fevereiro-de-2021-305410492" target="_blank" class="w3-hover-gray">cargo de Superintente Estadual do Ministério da Saúde no Ceará, código DAS-101.4, n° 05.0334, da Superintendência Estadual do Ministério da Saúde no Ceará, da Secretaria-Executiva.</a></td>
-</tr>
-<tr>
-   <td>JUDICIÁRIO</td>
-   <td>Poder Judiciário/Tribunal de Justiça do Distrito Federal e dos Territórios</td>
-   <td>FERNANDA DE SOUSA MARQUES ARANTES</td>
-   <td><a href="https://www.in.gov.br/web/dou/-/portaria-gpr-n-291-de-23-de-fevereiro-de-2021-305438599" target="_blank" class="w3-hover-gray">Cargo em Comissão, CJ-03, de Diretor de Secretaria da 2ª Vara Criminal da Circunscrição Judiciária de Samambaia, ficando dispensada da Função Comissionada, FC-02, da referida Unidade.</a></td>
-</tr>
-<tr>
-   <td>PRESIDÊNCIA</td>
-   <td>Presidência da República/Casa Civil</td>
-   <td>JOAQUIM IZIDIO NETO</td>
-   <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-25-de-fevereiro-de-2021-305398069" target="_blank" class="w3-hover-gray">cargo de Diretor de Infraestrutura Hídrica do Departamento Nacional de Obras Contra as Secas - DNOCS, código DAS 101.5, ficando exonerado do cargo que atualmente ocupa.</a></td>
-</tr>
-<tr>
-   <td>PRESIDÊNCIA</td>
-   <td>Presidência da República/Casa Civil</td>
-   <td>JOSÉ ROSILÔNIO MAGALHÃES DE ARAUJO</td>
-   <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-25-de-fevereiro-de-2021-305398069" target="_blank" class="w3-hover-gray">cargo de Diretor Administrativo do Departamento Nacional de Obras Contra as Secas - DNOCS, código DAS 101.5.</a></td>
-</tr>
-<tr>
-   <td>PRESIDÊNCIA</td>
-   <td>Presidência da República/Casa Civil</td>
-   <td>JULIANO ROJAS MAIA</td>
-   <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-25-de-fevereiro-de-2021-305398069" target="_blank" class="w3-hover-gray">cargo de Assessor Especial do Gabinete do Ministro de Estado das Relações Exteriores, código DAS 102.5.</a></td>
-</tr>
-<tr>
-   <td>PRESIDÊNCIA</td>
-   <td>Presidência da República/Casa Civil</td>
-   <td>JULIE MESSIAS E SILVA</td>
-   <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-25-de-fevereiro-de-2021-305398069" target="_blank" class="w3-hover-gray">cargo de Diretora do Departamento de Ecossistemas da Secretaria da Amazônia e Serviços Ambientais do Ministério do Meio Ambiente, código DAS 101.5.</a></td>
-</tr>
-<tr>
-   <td>PRESIDÊNCIA</td>
-   <td>Presidência da República/Secretaria-Geral/Secretaria Executiva</td>
-   <td>CLAUDETE MEDEIROS FAGUNDES</td>
-   <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-117-de-25-de-fevereiro-de-2021-305400144" target="_blank" class="w3-hover-gray">cargo de Assessor de ex-Presidente da República, código DAS 102.4, da Diretoria de Gestão de Pessoas da Secretaria Especial de Administração da Secretaria-Geral da Presidência da República.</a></td>
-</tr>
-
-</tbody>
-</table>
-</div>
-</div>
-
-<div class="w3-container">
-  <hr>
-  <div class="w3-center">
-    <p w3-class="w3-large">Exonerações</p>
-  </div>
-<div class="w3-responsive w3-card-4">
-<table class="w3-table w3-striped w3-bordered">
-<thead>
-<tr class="w3-theme">
-  <th style="width:5%">Órgão</th>
-  <th style="width:20%">Hierarquia</th>
-  <th style="width:25%">Nome</th>
-  <th style="width:50%">Função</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-   <td>MEC</td>
-   <td>Ministério da Educação/Gabinete do Ministro</td>
-   <td>MARCELO SILVA PONTES</td>
-   <td><a href="https://www.in.gov.br/web/dou/-/portaria-n-114-de-25-de-fevereiro-de-2021-305429595" target="_blank" class="w3-hover-gray">cargo de Chefe de Gabinete, código DAS 101.4, da Presidência do Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira - INEP.</a></td>
-</tr>
-<tr>
-   <td>JUDICIÁRIO</td>
-   <td>Poder Judiciário/Tribunal de Justiça do Distrito Federal e dos Territórios</td>
-   <td>LUIZ WILSON FREDERICO DE BRITO</td>
-   <td><a href="https://www.in.gov.br/web/dou/-/portaria-gpr-n-291-de-23-de-fevereiro-de-2021-305438599" target="_blank" class="w3-hover-gray">Cargo em Comissão, CJ-03, de Diretor de Secretaria da 2ª Vara Criminal da Circunscrição Judiciária de Samambaia.</a></td>
-</tr>
-<tr>
-   <td>PRESIDÊNCIA</td>
-   <td>Presidência da República/Casa Civil</td>
-   <td>ALEXANDRE RIBEIRO PEREIRA LOPES</td>
-   <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-25-de-fevereiro-de-2021-305398069" target="_blank" class="w3-hover-gray">cargo de Presidente do Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira - INEP, código DAS 101.6.</a></td>
-</tr>
-<tr>
-   <td>PRESIDÊNCIA</td>
-   <td>Presidência da República/Casa Civil</td>
-   <td>MAURICIO DE VASCONCELOS MEDEIROS</td>
-   <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-25-de-fevereiro-de-2021-305398069" target="_blank" class="w3-hover-gray">cargo de Diretor de Infraestrutura Hídrica do Departamento Nacional de Obras Contra as Secas - DNOCS, código DAS 101.5.</a></td>
-</tr>
-<tr>
-   <td>PRESIDÊNCIA</td>
-   <td>Presidência da República/Casa Civil</td>
-   <td>ROBERTO LUIZ ARRAES LOPES</td>
-   <td><a href="https://www.in.gov.br/web/dou/-/portarias-de-25-de-fevereiro-de-2021-305398069" target="_blank" class="w3-hover-gray">cargo de Assessor Especial do Gabinete do Ministro de Estado das Relações Exteriores, código DAS 102.5.</a></td>
-</tr>
-
-</tbody>
-</table>
-</div>
-</div>
-
-<div class="w3-container">
-  <hr>
-  <div class="w3-center">
-    <p w3-class="w3-large">Outros</p>
-  </div>
-<div class="w3-responsive w3-card-4">
-<table class="w3-table w3-striped w3-bordered">
-<thead>
-<tr class="w3-theme">
-  <th style="width:5%">Órgão</th>
-  <th style="width:20%">Hierarquia</th>
-  <th style="width:25%">Nome</th>
-  <th style="width:50%">Função</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-   <td>MEC</td>
-   <td>Ministério da Educação/Fundação Universidade de Brasília</td>
-   <td>HELAINE CARNEIRO CAPUCHO</td>
-   <td><a href="https://www.in.gov.br/web/dou/-/ato-n-190-de-25-de-fevereiro-de-2021-305432524" target="_blank" class="w3-hover-gray">Cargo Comissionado de Gerente, código CGE-IV, da Gerência de Farmacovigilância (GFARM), vinculada à Gerência-Geral de Monitoramento de Produtos Sujeitos à Vigilância Sanitária (GGMON), da Agência Nacional de Vigilância Sanitária (Anvisa). Art. 2º O ônus pela remuneração ou salário é do órgão cedente. Art. 3º A servidora deverá apresentar-se imediatamente ao órgão cedente ao término da cessão, observado o disposto no art. 5º do Decreto nº 9.144, de 22 de agosto de 2017. Art. 4º Torna-se sem efeito o disposto neste Ato caso a servidora não se apresente ao órgão cessionário no prazo de trinta dias. Art. 5º Este Ato entra em vigor na data da sua publicação.</a></td>
-</tr>
-<tr>
-   <td>MME</td>
-   <td>Ministério de Minas e Energia/Agência Nacional do Petróleo, Gás Natural e Biocombustíveis</td>
-   <td>FABIO DA SILVA VINHADO</td>
-   <td><a href="https://www.in.gov.br/web/dou/-/portaria-de-pessoal-anp-n-46-de-25-de-fevereiro-de-2021-305420738" target="_blank" class="w3-hover-gray">Cargo em Comissão de Assessor do Secretário de Petróleo, Gás Natural e Biocombustíveis, código DAS 102.4, do Ministério de Minas e Energia.</a></td>
-</tr>
-
-</tbody>
-</table>
-</div>
-</div>
-
-<div class="w3-container">
-  <hr>
-  <div class="w3-center">
-    <h2>Publicações DOU - Seção 3</h2>
-    <p w3-class="w3-large">Dataprev</p>
-  </div>
-<div class="w3-responsive w3-card-4">
-<table class="w3-table w3-striped w3-bordered">
-<thead>
-<tr class="w3-theme">
-  <th style="width:25%">Tipo</th>
-  <th style="width:25%">Hierarquia</th>
-  <th style="width:50%">Extrato</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-   <td>Extrato de Contrato</td>
-   <td>Ministério da Economia/Empresa de Tecnologia e Informações da Previdência</td>
-   <td><a href="https://www.in.gov.br/web/dou/-/extrato-de-contrato-uasg-238014-305470615" target="_blank" class="w3-hover-gray">EXTRATO DE CONTRATO - UASG 238014 Processo nº 44103.009172/2020-18. Contrato e Pedido de Compra nº 01.031927.2021. Modalidade: Pregão Eletrônico. Pregão Eletrônico nº 724/2021. Contratada: Aguiar Feres - Auditores Independentes S/S. CNPJ: 05.152.318/0001-01. Objeto: Contratação de empresa especializada para prestação de serviços de Auditoria Independente. Vigência: 06 (seis) meses a partir da assi...</a></td>
-</tr>
-<tr>
-   <td>Extrato de Contrato</td>
-   <td>Ministério da Economia/Empresa de Tecnologia e Informações da Previdência</td>
-   <td><a href="https://www.in.gov.br/web/dou/-/extrato-de-contrato-305458583" target="_blank" class="w3-hover-gray">EXTRATO DE CONTRATO Processo nº 44103.005240/2020-70 - Pregão Eletrônico nº 685/2020. PC/Contrato nº 01.031791.2021. Contratada: VIXTEAM CONSULTORIA & SISTEMAS S.A. - CNPJ nº 02.960.701/0001-06. Objeto: Contratação de solução de auditoria interna, como serviço que inclui recursos de tecnologia da Informação e Comunicação -TIC necessários à implantação e funcionamento da referida solução, tais como...</a></td>
-</tr>
-
-</tbody>
-</table>
-</div>
-</div>
-
-<div class="w3-container">
-  <hr>
-  <div class="w3-center">
-    <p w3-class="w3-large">Clientes</p>
-  </div>
-<div class="w3-responsive w3-card-4">
-<table class="w3-table w3-striped w3-bordered">
-<thead>
-<tr class="w3-theme">
-  <th style="width:25%">Tipo</th>
-  <th style="width:25%">Hierarquia</th>
-  <th style="width:50%">Extrato</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-   <td>Extrato de Contrato</td>
-   <td>Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Maranhão/Campus Viana</td>
-   <td><a href="https://www.in.gov.br/web/dou/-/extrato-de-contrato-n-1/2021-uasg-154856-campus-viana-305463095" target="_blank" class="w3-hover-gray">EXTRATO DE CONTRATO Nº 1/2021 - UASG 154856 - CAMPUS VIANA Nº Processo: 23249.014468/2020-26. Pregão Nº 9/2020. Contratante: INST.FED.DO MARANHAO/CAMPUS VIANA. Contratado: 04.892.991/0001-15 - TELTEC SOLUTIONS LTDA. Objeto: Contratação de serviços de tecnologia da informação e comunicação, de subscrição de licenças de uso de softwares microsoft, do tipo suíte de escritório para atender as necessid...</a></td>
-</tr>
-<tr>
-   <td>Extrato de Contrato</td>
-   <td>Poder Judiciário/Tribunal Regional do Trabalho da 7ª Região/Diretoria-Geral/Secretaria Administrativa</td>
-   <td><a href="https://www.in.gov.br/web/dou/-/extrato-de-contrato-305550548" target="_blank" class="w3-hover-gray">EXTRATO DE CONTRATO Espécie: Contrato nº 08/21. Proad. 0037/21. Contratada: X P ON CONSULTORIA LTDA. CNPJ 23.518.065/0001-29. Objeto: Aquisição de solução de videoconferência em nuvem e serviço de suporte técnico. Fundamento Legal: PE 60/20, Proad TST 501.525/2020-4, Proad TRT 7 37/21 - ARP nº 01/21.. Vigência: 12 meses a contar da assinatura. Valor: R$25.550,00. Empenho: 2021NE000168. Ass: Neiara...</a></td>
-</tr>
-
-</tbody>
-</table>
-</div>
-</div>
-
-<div class="w3-container">
-  <hr>
-  <div class="w3-center">
-    <p w3-class="w3-large">Outros</p>
-  </div>
-<div class="w3-responsive w3-card-4">
-<table class="w3-table w3-striped w3-bordered">
-<thead>
-<tr class="w3-theme">
-  <th style="width:25%">Tipo</th>
-  <th style="width:25%">Hierarquia</th>
-  <th style="width:50%">Extrato</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-   <td>Aviso de Licitação</td>
-   <td>Ineditoriais/Serviço Nacional de Aprendizagem Comercial/Administração Regional de Pernambuco</td>
-   <td><a href="https://www.in.gov.br/web/dou/-/aviso-de-licitacao-pregao-presencial-n-pp001cpl2021-305516023" target="_blank" class="w3-hover-gray">AVISO DE LICITAÇÃO PREGÃO PRESENCIAL Nº PP001CPL2021 O Serviço Nacional de Aprendizagem Comercial de Pernambuco - SENAC/PE, torna público que realizará, às 10 horas (horário local) do dia 09 de março de 2021, a abertura da licitação de forma remota, via internet, através da Conexão Teams (Plataforma de Webconferência - Microsoft Teams) do seguinte certame: PREGÃO PRESENCIAL Nº PP001CPL2021, objeti...</a></td>
-</tr>
-
-</tbody>
-</table>
-</div>
-</div>
 
 <!-- Footer -->
 <br>
 <footer class="w3-container w3-theme-dark w3-padding-16">
   <h3>Dataprev</h3>
   <p>Departamento de Monitoramento e Estratégia Comercial - DEME</p>
-  <p><i class="fa fa-exclamation-circle"></i> Informações, subscrição e cancelamento: envie-nos um <a class="w3-text-white" href="mailto:arton.peixoto@dataprev.gov.br;beatriz.katumata@dataprev.gov.br&subject=iSURC%20Info"><span class="w3-xlarge">
+  <p><i class="fa fa-exclamation-circle"></i> Informações, subscrição e cancelamento: envie-nos um <a class="w3-text-white" href="mailto:arton.peixoto@dataprev.gov.br,beatriz.katumata@dataprev.gov.br"><span class="w3-xlarge">
     <i class="fa fa-envelope-o"></i></span></a>
   <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
-
-   <span class="w3-text w3-theme-light w3-padding">Topo</span>    
+   <span class="w3-text w3-theme-light w3-padding">Topo</span>
     <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge">
     <i class="fa fa-chevron-circle-up"></i></span></a>
   </div>
-
 </footer>
 
 <!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
@@ -621,7 +3069,7 @@ function myAccFunc(id) {
   var x = document.getElementById(id);
   if (x.className.indexOf("w3-show") == -1) {
     x.className += " w3-show";
-  } else { 
+  } else {
     x.className = x.className.replace(" w3-show", "");
   }
 }
@@ -636,27 +3084,27 @@ function plusDivs(n) {
 
 function showDivs(n) {
   var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
+  if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length} ;
   for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
+    x[i].style.display = "none";
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex-1].style.display = "block";
 }
 
 showDivs(1);
 
 // Progress Bars
 function move() {
-  var elem = document.getElementById("myBar");   
+  var elem = document.getElementById("myBar");
   var width = 5;
   var id = setInterval(frame, 10);
   function frame() {
     if (width == 100) {
       clearInterval(id);
     } else {
-      width++; 
-      elem.style.width = width + '%'; 
+      width++;
+      elem.style.width = width + '%';
       elem.innerHTML = width * 1  + '%';
     }
   }
